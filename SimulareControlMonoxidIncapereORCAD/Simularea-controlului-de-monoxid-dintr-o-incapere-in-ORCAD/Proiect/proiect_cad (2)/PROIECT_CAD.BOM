@@ -1,0 +1,32 @@
+  Revised: Friday, May 31, 2024
+          Revision: 
+
+
+
+
+
+
+
+Bill Of Materials            May 31,2024      12:52:50	Page1
+
+Item	Quantity	Reference	Part
+______________________________________________
+
+1	1	G5V-3	165
+2	1	M1	2N7000KL
+3	1	R_Senzor	
+4	1	R1	10Meg
+5	1	R2	7.5Meg
+6	1	R3	100Meg
+7	5	R4,R6,R9,R10,R12	1k
+8	1	R5	93.1k
+9	1	R7	3.01k
+10	1	R8	475
+11	1	R11	750
+12	1	R13	649
+13	1	R14	121
+14	1	R16	232
+15	1	R17	1.1k
+16	1	U5	AD8574/AD
+17	2	U6,U17	LM324
+18	1	U10	TL082

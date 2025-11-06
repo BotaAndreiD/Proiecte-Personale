@@ -1,0 +1,348 @@
+
+**** 05/31/24 13:14:20 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ c:\users\botaa\desktop\new folder\proiect_cad (2)\proiect_cad-pspicefiles\schematic1\si
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "simulare_proiect.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../led.lib" 
+* From [PSPICE NETLIST] section of C:\Users\botaa\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\23.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM k 45k 125k 10 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT_CAD
+R_R12         VCC N26029 R_R12 1k TC=0,0 
+.model        R_R12 RES R=1 DEV=1% TC1=0 TC2=0
+X_U10A         N26029 N26327 VCC 0 VCONVD TL082
+R_R5         N26513 VAMP R_R5 93.1k TC=0,0 
+.model        R_R5 RES R=1 DEV=1% TC1=0 TC2=0
+R_R14         N26313 VCC R_R14 121 TC=0,0 
+.model        R_R14 RES R=1 DEV=1% TC1=0 TC2=0
+R_R9         N25777 VCOMP R_R9 1k TC=0,0 
+.model        R_R9 RES R=1 DEV=1% TC1=0 TC2=0
+R_R4         0 N26513 R_R4 1k TC=0,0 
+.model        R_R4 RES R=1 DEV=1% TC1=0 TC2=0
+D_D2          N26313 N26395 Led_Albastru 
+X_U6A         VBUFFER N26513 VCC 0 VAMP LM324
+R_R11         N25869 0 R_R11 750 TC=0,0 
+.model        R_R11 RES R=1 DEV=1% TC1=0 TC2=0
+R_R8         VCONVD N25777 R_R8 475 TC=0,0 
+.model        R_R8 RES R=1 DEV=1% TC1=0 TC2=0
+X_U17A         N25777 N25869 VCC 0 VCOMP LM324
+R_R13         N26029 0 R_R13 649 TC=0,0 
+.model        R_R13 RES R=1 DEV=1% TC1=0 TC2=0
+R_R3         0 N26053 R_R3 100Meg TC=0,0 
+.model        R_R3 RES R=1 DEV=1% TC1=0 TC2=0
+R_R7         N26327 VCONVD R_R7 3.01k TC=0,0 
+.model        R_R7 RES R=1 DEV=1% TC1=0 TC2=0
+R_R_Senzor         0 N26053  {k} TC=0,0 
+R_R2         N26053 N25957 R_R2 7.5Meg TC=0,0 
+.model        R_R2 RES R=1 DEV=1% TC1=0 TC2=0
+V_V1         VCC 0 11V
+V_V2         0 -VCC 11V
+R_R6         VAMP N26327 R_R6 1k TC=0,0 
+.model        R_R6 RES R=1 DEV=1% TC1=0 TC2=0
+R_R16         0 N26529 R_R16 232 TC=0,0 
+.model        R_R16 RES R=1 DEV=1% TC1=0 TC2=0
+X_U5         N26053 VBUFFER VCC 0 VBUFFER AD8574/AD
+R_R1         N25957 VCC R_R1 10Meg TC=0,0 
+.model        R_R1 RES R=1 DEV=1% TC1=0 TC2=0
+R_R10         VCC N25869 R_R10 1k TC=0,0 
+.model        R_R10 RES R=1 DEV=1% TC1=0 TC2=0
+R_R17         VCOMP N30207 R_R17 1.1k TC=0,0 
+.model        R_R17 RES R=1 DEV=1% TC1=0 TC2=0
+R_G5V-3         N26395 VCC  165 TC=0,0 
+X_M1         N26395 N30207 N26529 2N7000KL
+.PARAM  k=45k
+
+**** RESUMING simulare_proiect.cir ****
+.END
+
+**** 05/31/24 13:14:20 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ c:\users\botaa\desktop\new folder\proiect_cad (2)\proiect_cad-pspicefiles\schematic1\si
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Led_Albastru    X_U10A.dx       X_U10A.dy       X_U6A.dx        
+          IS   10.000000E-21  800.000000E-18  800.000000E-18  800.000000E-18 
+           N    2.7157                                                       
+         ISR  100.000000E-12                                                 
+         IKF   10.564                                                        
+          BV  100                                                            
+         IBV  100.000000E-06                                                 
+          RS   18.719                           1.000000E-03    1            
+          TT    5.000000E-09                                                 
+         CJO    1.000000E-12                   10.000000E-12                 
+          VJ     .75                                                         
+           M     .3333                                                       
+
+
+               X_U6A.dy        X_U17A.dx       X_U17A.dy       X_U5.DX         
+          IS  800.000000E-18  800.000000E-18  800.000000E-18   10.000000E-15 
+          RS    1.000000E-03    1               1.000000E-03    5            
+         CJO   10.000000E-12                   10.000000E-12                 
+
+
+               X_M1.DBD        
+          IS    1.000000E-12 
+          BV   60.5          
+          RS    1            
+          TT   40.000000E-09 
+         CJO   13.000000E-12 
+          VJ     .38         
+           M     .3          
+          FC     .1          
+
+
+**** 05/31/24 13:14:20 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ c:\users\botaa\desktop\new folder\proiect_cad (2)\proiect_cad-pspicefiles\schematic1\si
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U6A.qx        X_U17A.qx       
+               PNP             PNP             
+       LEVEL    1               1            
+          IS  800.000000E-18  800.000000E-18 
+          BF  166.7           166.7          
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+         ISS    0               0            
+          RE    0               0            
+          RC    0               0            
+         CJE    0               0            
+         VJE     .75             .75         
+         CJC    0               0            
+         VJC     .75             .75         
+         MJC     .33             .33         
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          KF    0               0            
+          AF    1               1            
+          CN    2.2             2.2          
+           D     .52             .52         
+
+
+**** 05/31/24 13:14:20 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ c:\users\botaa\desktop\new folder\proiect_cad (2)\proiect_cad-pspicefiles\schematic1\si
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U10A.jx1      X_U10A.jx2      
+               NJF             NJF             
+         VTO   -1              -1            
+        BETA  222.070000E-06  222.070000E-06 
+          IS  100.000000E-12  100.000000E-12 
+
+
+**** 05/31/24 13:14:20 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ c:\users\botaa\desktop\new folder\proiect_cad (2)\proiect_cad-pspicefiles\schematic1\si
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U5.POX        X_U5.NOX        X_U5.PIX        X_U5.NIX        
+               PMOS            NMOS            PMOS            NMOS            
+       LEVEL    2               2               2               2            
+           L  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+         VTO   -1               1              -1               1            
+          KP   10.000000E-06   10.000000E-06  100.000000E-06  100.000000E-06 
+       GAMMA    0               0               0               0            
+         PHI     .6              .6              .6              .6          
+      LAMBDA    1.000000E-03    1.000000E-03     .01             .01         
+          RD    8               5                                            
+          IS   10.000000E-15   10.000000E-15   10.000000E-15   10.000000E-15 
+          JS    0               0               0               0            
+          PB     .8              .8              .8              .8          
+        PBSW     .8              .8              .8              .8          
+          CJ    0               0               0               0            
+        CJSW    0               0               0               0            
+        CGSO    0               0               0               0            
+        CGDO    0               0               0               0            
+        CGBO    0               0               0               0            
+         TOX  100.000000E-09  100.000000E-09  100.000000E-09  100.000000E-09 
+          XJ    0               0               0               0            
+       UCRIT   10.000000E+03   10.000000E+03   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1               1               1            
+         VFB    0               0               0               0            
+        LETA    0               0               0               0            
+        WETA    0               0               0               0            
+          U0    0               0               0               0            
+        TEMP    0               0               0               0            
+         VDD    5               5               5               5            
+       XPART    0               0               0               0            
+
+
+               X_M1.NMOS       X_M1.PMOS       
+               NMOS            PMOS            
+       LEVEL    3               3            
+         TPG                   -1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+         VTO    2.421896       -2.555327     
+          KP   10.000000E-06   29.598380E-06 
+       GAMMA    2.908168        1.88326      
+         PHI     .789814         .744861     
+      LAMBDA    0               0            
+          RS     .4                          
+          IS    0              10.000000E-15 
+          JS    0               0            
+          PB     .8              .8          
+        PBSW     .8              .8          
+          CJ  801.975400E-06  519.340100E-06 
+        CJSW    0               0            
+        CGSO    0               0            
+        CGDO    0               0            
+        CGBO    0               0            
+        NSUB   62.000000E+15   26.000000E+15 
+         NFS  800.000000E+09                 
+         TOX   70.000000E-09   70.000000E-09 
+          XJ  500.000000E-09    0            
+          UO  650                            
+       UCRIT   10.000000E+03   10.000000E+03 
+       DELTA     .1                          
+         ETA  100.000000E-06                 
+       KAPPA     .08                         
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    5               5            
+       XPART    0               0            
+
+
+**** 05/31/24 13:14:20 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ c:\users\botaa\desktop\new folder\proiect_cad (2)\proiect_cad-pspicefiles\schematic1\si
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               R_R12           R_R5            R_R14           R_R9            
+           R    1               1               1               1            
+
+
+               R_R4            R_R11           R_R8            R_R13           
+           R    1               1               1               1            
+
+
+               R_R3            R_R7            R_R2            R_R6            
+           R    1               1               1               1            
+
+
+               R_R16           R_R1            R_R10           R_R17           
+           R    1               1               1               1            
+
+
+               X_M1.RTEMP      
+           R    1            
+         TC1    8.000000E-03 
+         TC2    5.500000E-06 
+
+
+**** 05/31/24 13:14:20 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ c:\users\botaa\desktop\new folder\proiect_cad (2)\proiect_cad-pspicefiles\schematic1\si
+
+
+ ****     Current Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U6A.sw2       X_U6A.sw1       X_U6A.sw3       X_U6A.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U17A.sw2      X_U17A.sw1      X_U17A.sw3      X_U17A.sw4      
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+
+          JOB CONCLUDED
+
+**** 05/31/24 13:14:20 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ c:\users\botaa\desktop\new folder\proiect_cad (2)\proiect_cad-pspicefiles\schematic1\si
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        2.30
+

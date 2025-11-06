@@ -1,0 +1,404 @@
+
+**** 05/31/24 00:00:22 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ C:\USERS\BOTAA\DESKTOP\NEW FOLDER\PROIECT_CAD (2)\PROIECT_CAD-PSpiceFiles\SCHEMATIC1\si
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "simulare_proiect.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../led.lib" 
+* From [PSPICE NETLIST] section of C:\Users\botaa\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\23.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM k 45k 85k 1 
+.WCASE DC V([VCOMP]) YMAX VARY BOTH  HI 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT_CAD
+R_R12         VCC N26029 R_R12 1k TC=0,0 
+.model        R_R12 RES R=1 DEV=1% TC1=0 TC2=0
+X_U10A         N26029 N26327 VCC 0 VCONVD TL082
+R_R5         N26513 VAMP  94k TC=0,0 
+R_R14         N26313 VCC R_R14 301 TC=0,0 
+.model        R_R14 RES R=1 DEV=1% TC1=0 TC2=0
+R_R9         N25777 VCOMP R_R9 1k TC=0,0 
+.model        R_R9 RES R=1 DEV=1% TC1=0 TC2=0
+R_R4         0 N26513  1k TC=0,0 
+Q_Q1         N26395 N26509 N26529 Q2N2222A/ZTX 
+D_D2          N26313 N26395 Led_Albastru 
+X_U6A         VBUFFER N26513 VCC 0 VAMP LM324
+R_R11         N25869 0 R_R11 768 TC=0,0 
+.model        R_R11 RES R=1 DEV=1% TC1=0 TC2=0
+R_R8         VCONVD N25777 R_R8 475 TC=0,0 
+.model        R_R8 RES R=1 DEV=1% TC1=0 TC2=0
+X_U17A         N25777 N25869 VCC 0 VCOMP LM324
+R_R13         N26029 0 R_R13 665 TC=0,0 
+.model        R_R13 RES R=1 DEV=1% TC1=0 TC2=0
+R_G5V-1         N26317 VCC R_G5V-1 118 TC=0,0 
+.model        R_G5V-1 RES R=1 DEV=1% TC1=0 TC2=0
+R_R3         0 N26053 R_R3 100Meg TC=0,0 
+.model        R_R3 RES R=1 DEV=1% TC1=0 TC2=0
+R_R7         N26327 VCONVD R_R7 2.94k TC=0,0 
+.model        R_R7 RES R=1 DEV=1% TC1=0 TC2=0
+R_R_Senzor         0 N26053  {k} TC=0,0 
+R_R2         N26053 N25957 R_R2 7.5Meg TC=0,0 
+.model        R_R2 RES R=1 DEV=1% TC1=0 TC2=0
+V_V1         VCC 0 11V
+V_V2         0 -VCC 11V
+R_R6         VAMP N26327 R_R6 1k TC=0,0 
+.model        R_R6 RES R=1 DEV=1% TC1=0 TC2=0
+R_R16         0 N26529 R_R16 8.06 TC=0,0 
+.model        R_R16 RES R=1 DEV=1% TC1=0 TC2=0
+R_R15         VCOMP N26509 R_R15 24.90k TC=0,0 
+.model        R_R15 RES R=1 DEV=1% TC1=0 TC2=0
+X_U5         N26053 VBUFFER VCC 0 VBUFFER AD8574/AD
+R_R1         N25957 VCC R_R1 10Meg TC=0,0 
+.model        R_R1 RES R=1 DEV=1% TC1=0 TC2=0
+R_R10         VCC N25869 R_R10 1k TC=0,0 
+.model        R_R10 RES R=1 DEV=1% TC1=0 TC2=0
+R_G5V-2         N26395 N26317  422 TC=0,0 
+.PARAM  k=45k
+
+**** RESUMING simulare_proiect.cir ****
+.END
+
+**** 05/31/24 00:00:22 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ C:\USERS\BOTAA\DESKTOP\NEW FOLDER\PROIECT_CAD (2)\PROIECT_CAD-PSpiceFiles\SCHEMATIC1\si
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Led_Albastru    X_U10A.dx       X_U10A.dy       X_U6A.dx        
+          IS   10.000000E-21  800.000000E-18  800.000000E-18  800.000000E-18 
+           N    2.7157                                                       
+          RS                                    1.000000E-03    1            
+         CJO                                   10.000000E-12                 
+
+
+               X_U6A.dy        X_U17A.dx       X_U17A.dy       X_U5.DX         
+          IS  800.000000E-18  800.000000E-18  800.000000E-18   10.000000E-15 
+          RS    1.000000E-03    1               1.000000E-03    5            
+         CJO   10.000000E-12                   10.000000E-12                 
+
+
+**** 05/31/24 00:00:22 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ C:\USERS\BOTAA\DESKTOP\NEW FOLDER\PROIECT_CAD (2)\PROIECT_CAD-PSpiceFiles\SCHEMATIC1\si
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Q2N2222A/ZTX    X_U6A.qx        X_U17A.qx       
+               NPN             PNP             PNP             
+       LEVEL    1               1               1            
+          IS   30.611000E-15  800.000000E-18  800.000000E-18 
+          BF  220             166.7           166.7          
+          NF    1.00124         1               1            
+         VAF  104                                            
+         IKF     .52                                         
+         ISE    7.500000E-15                                 
+          NE    1.41                                         
+          BR    4               1               1            
+          NR    1.005           1               1            
+         VAR   28                                            
+         IKR     .24                                         
+         ISC   10.652500E-12                                 
+          NC    1.3728                                       
+         ISS    0               0               0            
+          RB     .13                                         
+          RE     .22            0               0            
+          RC     .12            0               0            
+         CJE   27.010000E-12    0               0            
+         VJE     .75             .75             .75         
+         CJC    9.120000E-12    0               0            
+         VJC     .4089           .75             .75         
+         MJC     .3508           .33             .33         
+        XCJC    1               1               1            
+         CJS    0               0               0            
+         VJS     .75             .75             .75         
+          TF  325.000000E-12                                 
+          TR  100.000000E-09                                 
+          KF    0               0               0            
+          AF    1               1               1            
+          CN    2.42            2.2             2.2          
+           D     .87             .52             .52         
+
+
+**** 05/31/24 00:00:22 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ C:\USERS\BOTAA\DESKTOP\NEW FOLDER\PROIECT_CAD (2)\PROIECT_CAD-PSpiceFiles\SCHEMATIC1\si
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U10A.jx1      X_U10A.jx2      
+               NJF             NJF             
+         VTO   -1              -1            
+        BETA  222.070000E-06  222.070000E-06 
+          IS  100.000000E-12  100.000000E-12 
+
+
+**** 05/31/24 00:00:22 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ C:\USERS\BOTAA\DESKTOP\NEW FOLDER\PROIECT_CAD (2)\PROIECT_CAD-PSpiceFiles\SCHEMATIC1\si
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U5.POX        X_U5.NOX        X_U5.PIX        X_U5.NIX        
+               PMOS            NMOS            PMOS            NMOS            
+       LEVEL    2               2               2               2            
+           L  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+         VTO   -1               1              -1               1            
+          KP   10.000000E-06   10.000000E-06  100.000000E-06  100.000000E-06 
+       GAMMA    0               0               0               0            
+         PHI     .6              .6              .6              .6          
+      LAMBDA    1.000000E-03    1.000000E-03     .01             .01         
+          RD    8               5                                            
+          IS   10.000000E-15   10.000000E-15   10.000000E-15   10.000000E-15 
+          JS    0               0               0               0            
+          PB     .8              .8              .8              .8          
+        PBSW     .8              .8              .8              .8          
+          CJ    0               0               0               0            
+        CJSW    0               0               0               0            
+        CGSO    0               0               0               0            
+        CGDO    0               0               0               0            
+        CGBO    0               0               0               0            
+         TOX  100.000000E-09  100.000000E-09  100.000000E-09  100.000000E-09 
+          XJ    0               0               0               0            
+       UCRIT   10.000000E+03   10.000000E+03   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1               1               1            
+         VFB    0               0               0               0            
+        LETA    0               0               0               0            
+        WETA    0               0               0               0            
+          U0    0               0               0               0            
+        TEMP    0               0               0               0            
+         VDD    5               5               5               5            
+       XPART    0               0               0               0            
+
+
+**** 05/31/24 00:00:22 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ C:\USERS\BOTAA\DESKTOP\NEW FOLDER\PROIECT_CAD (2)\PROIECT_CAD-PSpiceFiles\SCHEMATIC1\si
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               R_R12           R_R14           R_R9            R_R11           
+           R    1               1               1               1            
+
+
+               R_R8            R_R13           R_G5V-1         R_R3            
+           R    1               1               1               1            
+
+
+               R_R7            R_R2            R_R6            R_R16           
+           R    1               1               1               1            
+
+
+               R_R15           R_R1            R_R10           
+           R    1               1               1            
+
+
+**** 05/31/24 00:00:22 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ C:\USERS\BOTAA\DESKTOP\NEW FOLDER\PROIECT_CAD (2)\PROIECT_CAD-PSpiceFiles\SCHEMATIC1\si
+
+
+ ****     Current Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U6A.sw2       X_U6A.sw1       X_U6A.sw3       X_U6A.sw4       
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+               X_U17A.sw2      X_U17A.sw1      X_U17A.sw3      X_U17A.sw4      
+         RON    1               1               1               1            
+        ROFF   10.000000E+06   10.000000E+06   10.000000E+06   10.000000E+06 
+         ION    0              -1.000000E-06   -1.000000E-06    0            
+        IOFF   -1.000000E-06    0               0              -1.000000E-06 
+
+
+
+Mean Deviation =    1.3741
+Sigma          =    8.3014
+
+ RUN                    MAX DEVIATION FROM NOMINAL
+
+R_R13 R_R13 R           10.305  (1.24 sigma)  higher  at k =   84.4350E+03
+                        (   1.5422E+06% change per 1% change in Model Parameter)
+
+R_R12 R_R12 R           10.305  (1.24 sigma)  lower  at k =   84.3750E+03
+                        (-999.35% change per 1% change in Model Parameter)
+
+R_R1 R_R1 R             10.305  (1.24 sigma)  higher  at k =   84.4360E+03
+                        (   1.5422E+06% change per 1% change in Model Parameter)
+
+R_R2 R_R2 R             10.305  (1.24 sigma)  higher  at k =   84.4360E+03
+                        (   1.5422E+06% change per 1% change in Model Parameter)
+
+R_R11 R_R11 R           10.305  (1.24 sigma)  lower  at k =   84.4120E+03
+                        (-999.35% change per 1% change in Model Parameter)
+
+R_R10 R_R10 R           10.305  (1.24 sigma)  higher  at k =   84.4350E+03
+                        (   1.5422E+06% change per 1% change in Model Parameter)
+
+R_R8 R_R8 R             10.305  (1.24 sigma)  higher  at k =   84.4350E+03
+                        (   1.5422E+06% change per 1% change in Model Parameter)
+
+R_R9 R_R9 R             10.305  (1.24 sigma)  lower  at k =   84.4200E+03
+                        (-999.35% change per 1% change in Model Parameter)
+
+R_R6 R_R6 R             10.305  (1.24 sigma)  higher  at k =   84.4350E+03
+                        (   1.5422E+06% change per 1% change in Model Parameter)
+
+R_R7 R_R7 R             10.305  (1.24 sigma)  lower  at k =   84.4220E+03
+                        (-999.35% change per 1% change in Model Parameter)
+
+R_R3 R_R3 R            1.9073E-06  ( .00 sigma)  lower  at k =   84.4340E+03
+                        (-184.9600E-06% change per 1% change in Model Parameter)
+
+R_R14 R_R14 R        953.6700E-09  ( .00 sigma)  lower  at k =   45.0240E+03
+                        ( -92.4510E-06% change per 1% change in Model Parameter)
+
+R_G5V-1 R_G5V-1 R    953.6700E-09  ( .00 sigma)  lower  at k =   45.3920E+03
+                        ( -92.4510E-06% change per 1% change in Model Parameter)
+
+R_R16 R_R16 R        953.6700E-09  ( .00 sigma)  higher  at k =   45.1100E+03
+                        (  92.4510E-06% change per 1% change in Model Parameter)
+
+R_R15 R_R15 R        953.6700E-09  ( .00 sigma)  higher  at k =   45.0000E+03
+                        (  92.4510E-06% change per 1% change in Model Parameter)
+
+
+**** 05/31/24 00:00:22 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ C:\USERS\BOTAA\DESKTOP\NEW FOLDER\PROIECT_CAD (2)\PROIECT_CAD-PSpiceFiles\SCHEMATIC1\si
+
+
+ ****     UPDATED MODEL PARAMETERS         TEMPERATURE =   27.000 DEG C
+
+                      WORST CASE ALL DEVICES
+
+******************************************************************************
+
+
+
+Device       MODEL        PARAMETER    NEW VALUE    
+R_R12        R_R12        R                .99          (Decreased)  
+R_R14        R_R14        R                .99          (Decreased)  
+R_R9         R_R9         R                .99          (Decreased)  
+R_R11        R_R11        R                .99          (Decreased)  
+R_R8         R_R8         R               1.01          (Increased)  
+R_R13        R_R13        R               1.01          (Increased)  
+R_G5V-1      R_G5V-1      R                .99          (Decreased)  
+R_R3         R_R3         R                .99          (Decreased)  
+R_R7         R_R7         R                .99          (Decreased)  
+R_R2         R_R2         R               1.01          (Increased)  
+R_R6         R_R6         R               1.01          (Increased)  
+R_R16        R_R16        R               1.01          (Increased)  
+R_R15        R_R15        R               1.01          (Increased)  
+R_R1         R_R1         R               1.01          (Increased)  
+R_R10        R_R10        R               1.01          (Increased)  
+    
+
+**** 05/31/24 00:00:22 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ C:\USERS\BOTAA\DESKTOP\NEW FOLDER\PROIECT_CAD (2)\PROIECT_CAD-PSpiceFiles\SCHEMATIC1\si
+
+
+ ****     SORTED DEVIATIONS OF V(VCOMP)    TEMPERATURE =   27.000 DEG C
+
+                      WORST CASE SUMMARY
+
+******************************************************************************
+
+
+
+
+
+Mean Deviation =   10.306
+Sigma          =    0     
+
+ RUN                    MAX DEVIATION FROM NOMINAL
+
+WORST CASE ALL DEVICES
+                        10.306  higher  at k =   84.4370E+03
+                        ( 154.3300E+03% of Nominal)
+
+
+
+          JOB CONCLUDED
+
+**** 05/31/24 00:00:22 ***** PSpice 23.1.0 (17 April 2024) **** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-simulare_proiect"  [ C:\USERS\BOTAA\DESKTOP\NEW FOLDER\PROIECT_CAD (2)\PROIECT_CAD-PSpiceFiles\SCHEMATIC1\si
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =      226.91
+

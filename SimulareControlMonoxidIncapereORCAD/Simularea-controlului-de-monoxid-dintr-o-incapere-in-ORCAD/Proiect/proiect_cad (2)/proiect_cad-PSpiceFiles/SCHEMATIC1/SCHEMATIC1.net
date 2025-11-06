@@ -1,0 +1,44 @@
+* source PROIECT_CAD
+R_R12         VCC N26029 R_R12 1k TC=0,0 
+.model        R_R12 RES R=1 DEV=1% TC1=0 TC2=0
+X_U10A         N26029 N26327 VCC 0 VCONVD TL082
+R_R5         N26513 VAMP R_R5 93.1k TC=0,0 
+.model        R_R5 RES R=1 DEV=1% TC1=0 TC2=0
+R_R14         N26313 VCC R_R14 121 TC=0,0 
+.model        R_R14 RES R=1 DEV=1% TC1=0 TC2=0
+R_R9         N25777 VCOMP R_R9 1k TC=0,0 
+.model        R_R9 RES R=1 DEV=1% TC1=0 TC2=0
+R_R4         0 N26513 R_R4 1k TC=0,0 
+.model        R_R4 RES R=1 DEV=1% TC1=0 TC2=0
+D_D2          N26313 N26395 Led_Albastru 
+X_U6A         VBUFFER N26513 VCC 0 VAMP LM324
+R_R11         N25869 0 R_R11 750 TC=0,0 
+.model        R_R11 RES R=1 DEV=1% TC1=0 TC2=0
+R_R8         VCONVD N25777 R_R8 475 TC=0,0 
+.model        R_R8 RES R=1 DEV=1% TC1=0 TC2=0
+X_U17A         N25777 N25869 VCC 0 VCOMP LM324
+R_R13         N26029 0 R_R13 649 TC=0,0 
+.model        R_R13 RES R=1 DEV=1% TC1=0 TC2=0
+R_R3         0 N26053 R_R3 100Meg TC=0,0 
+.model        R_R3 RES R=1 DEV=1% TC1=0 TC2=0
+R_R7         N26327 VCONVD R_R7 3.01k TC=0,0 
+.model        R_R7 RES R=1 DEV=1% TC1=0 TC2=0
+R_R_Senzor         0 N26053  {k} TC=0,0 
+R_R2         N26053 N25957 R_R2 7.5Meg TC=0,0 
+.model        R_R2 RES R=1 DEV=1% TC1=0 TC2=0
+V_V1         VCC 0 11V
+V_V2         0 -VCC 11V
+R_R6         VAMP N26327 R_R6 1k TC=0,0 
+.model        R_R6 RES R=1 DEV=1% TC1=0 TC2=0
+R_R16         0 N26529 R_R16 232 TC=0,0 
+.model        R_R16 RES R=1 DEV=1% TC1=0 TC2=0
+X_U5         N26053 VBUFFER VCC 0 VBUFFER AD8574/AD
+R_R1         N25957 VCC R_R1 10Meg TC=0,0 
+.model        R_R1 RES R=1 DEV=1% TC1=0 TC2=0
+R_R10         VCC N25869 R_R10 1k TC=0,0 
+.model        R_R10 RES R=1 DEV=1% TC1=0 TC2=0
+R_R17         VCOMP N30207 R_R17 1.1k TC=0,0 
+.model        R_R17 RES R=1 DEV=1% TC1=0 TC2=0
+R_G5V-3         N26395 VCC  165 TC=0,0 
+X_M1         N26395 N30207 N26529 2N7000KL
+.PARAM  k=45k
