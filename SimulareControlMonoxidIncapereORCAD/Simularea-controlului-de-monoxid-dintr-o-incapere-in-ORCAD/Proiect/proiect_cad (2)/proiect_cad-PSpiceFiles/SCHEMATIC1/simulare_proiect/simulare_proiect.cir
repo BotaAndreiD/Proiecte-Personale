@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC1-simulare_proiect"  [ c:\users\botaa\desktop\new folder\proiect_cad (2)\proiect_cad-pspicefiles\schematic1\simulare_proiect.sim ] 
+
+** Creating circuit file "simulare_proiect.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../led.lib" 
+* From [PSPICE NETLIST] section of C:\Users\botaa\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\23.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM k 45k 125k 10 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

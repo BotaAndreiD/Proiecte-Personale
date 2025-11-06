@@ -1,0 +1,5 @@
+ lib="c:\users\botaa\desktop\new folder\proiect_cad (2)\led.lib", offset=1373, size=170
+ lib=c:\cadence\orcadx_23.1\tools\PSpice\Library\opamp.lib, offset=96448, size=1161
+ lib=c:\cadence\orcadx_23.1\tools\PSpice\Library\opamp.lib, offset=53165, size=1419
+ lib=c:\cadence\orcadx_23.1\tools\PSpice\Library\anlg_dev.lib, offset=752877, size=2325
+ lib=c:\cadence\orcadx_23.1\tools\PSpice\Library\siliconix.lib, offset=287, size=1189
