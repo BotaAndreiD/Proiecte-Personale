@@ -9025,7 +9025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 89.535 212.09 0)
 			(effects
 				(font
@@ -9961,7 +9961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 222.885 189.23 0)
 			(effects
 				(font
@@ -10260,7 +10260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
 			(at 111.76 88.9 0)
 			(effects
 				(font
@@ -10759,7 +10759,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 222.885 213.36 0)
 			(effects
 				(font
@@ -10861,7 +10861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 158.115 189.23 0)
 			(effects
 				(font
@@ -11298,7 +11298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.452 245.11 90)
 			(effects
 				(font
@@ -12861,7 +12861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 89.535 187.96 0)
 			(effects
 				(font
@@ -13292,7 +13292,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "86a11ba9-5c5b-4419-8964-16fe619d3fb1")
 		(property "Reference" "SW1"
 			(at 101.6 43.18 0)
@@ -14183,7 +14182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 158.115 213.36 0)
 			(effects
 				(font
@@ -15636,7 +15635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 90.17 99.06 0)
 			(effects
 				(font
