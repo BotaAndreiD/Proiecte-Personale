@@ -4106,7 +4106,7 @@
 	)
 	(rectangle
 		(start 19.05 158.75)
-		(end 215.9 271.78)
+		(end 215.9 275.844)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4201,8 +4201,8 @@
 		(uuid 70426a6b-bf6e-4266-aa74-90b11f963691)
 	)
 	(rectangle
-		(start 19.05 259.08)
-		(end 158.75 271.78)
+		(start 19.05 258.318)
+		(end 215.9 275.844)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4285,16 +4285,15 @@
 		)
 		(uuid "7808bdee-7553-4d50-b0b1-53376075afd6")
 	)
-	(text "Ramane de vorbit inca despre tranzistori "
+	(text "Puntea Trifazată este configurată cu 6 MOSFET-uri de putere N-Channel, de tip Q1-Q6, optimizate pentru comutație rapidă și rezistență de conducție minimă pentru a suporta un curent nominal \nde 15A. Tensiunea de bootstrap pentru ramurile High-Side este menținută de condensatorii C1, C2 și C3 de 470nF, permițând deschiderea completă a tranzistorilor la o tensiune de alimentare\nVm de 36V. Grupurile de condensatori C6-C14 sunt plasate local pe linia de alimentare Vm pentru a filtra riplul de curent și a proteja componentele de vârfurile de tensiune autoinduse.\nControlul de poartă folosește rezistențe asimetrice, cu 20 Ohm la deschidere și 10 Ohm la închidere prin diodele D1-D6, pentru a preveni fenomenul de scurtcircuit pe braț și a reduce pierderile\ntermice. Rezistențele R4, R14, R15, R16, R17 și R18 de 10k Ohm mențin poarta tranzistorilor la un potențial definit pentru a preveni activarea accidentală.\nMonitorizarea și protecția se realizează prin rezistența de șunt R1 de 0.01 Ohm, care transformă curentul prin motor în tensiune. Acest semnal este filtrat prin rețeaua R19 și C5 și trimis către\npinul OcComp pentru oprirea instantanee a motorului în caz de supracurent. Totodată, semnalul este amplificat de 31 de ori prin amplificatorul operațional OP3 către pinul PA1 pentru monitorizarea\nprecisă a consumului de energie."
 		(exclude_from_sim no)
-		(at 45.466 265.938 0)
+		(at 19.812 267.462 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(italic yes)
+				(thickness 0.1588)
 			)
+			(justify left)
 		)
 		(uuid "8b3a7713-f477-41ac-b794-73e86c39ce32")
 	)
