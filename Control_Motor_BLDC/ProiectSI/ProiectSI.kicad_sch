@@ -4352,9 +4352,7 @@
 		(effects
 			(font
 				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-				(italic yes)
+				(thickness 0.2381)
 			)
 		)
 		(uuid "c1afc561-327b-40ed-ac4c-26ab4c11dddc")
@@ -9116,8 +9114,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 211.836 118.364 90)
+		(property "Value" "1.43k"
+			(at 213.106 118.364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15263,7 +15261,7 @@
 				)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "21k"
 			(at 201.93 118.618 90)
 			(effects
 				(font
