@@ -1,0 +1,19 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\botaa\Documents\Caif\Proiect\Proiect\P1_Proiectarea_FiltrelorAnalogice\P1_Proiectarea_FiltrelorAnalogice\LTSpice\Gm-C_TowThomas1\tb_FTJ_ord3_TowThomas_Gmideal.net
+Start Time: Wed Apr 22 11:02:50 2026
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+ERROR: Node n001 is floating and connected to current source G1
+ERROR: Node out is floating and connected to current source G2
+ERROR: Node n002 is floating and connected to current source G5
+
+.OP point found by inspection.
+.OP point found by inspection.
+Total elapsed time: 0.018 seconds.
+
+Files loaded:
+C:\Users\botaa\Documents\Caif\Proiect\Proiect\P1_Proiectarea_FiltrelorAnalogice\P1_Proiectarea_FiltrelorAnalogice\LTSpice\Gm-C_TowThomas1\tb_FTJ_ord3_TowThomas_Gmideal.net
+

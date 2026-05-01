@@ -1,0 +1,76 @@
+Stray ".ends" card: .ends
+Circuit: * F:\Teaching_Work\Materii\Cursuri\CAIF_2020\proiect\11_ProiectareAO\1_AOMiller\LTSpice\AO_Miller_CL_12p_PMOS_2mA\tb_AO_comp_RMCM_LoopGain.asc
+
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- BSIM3 MOSFETS ---
+Name:     m:x1:out    m:x1:cm1    m:x1:cm2   m:x1:diode  m:x1:biasout
+Model:      nmos        nmos        nmos        pmos         pmos
+Id:        1.64e-03    1.81e-04    1.81e-04   -5.00e-05   -1.64e-03
+Vgs:       6.82e-01    6.53e-01    6.53e-01   -7.09e-01   -7.09e-01
+Vds:       2.50e+00    6.53e-01    6.82e-01   -7.09e-01   -2.50e+00
+Vbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Vth:       4.76e-01    4.53e-01    4.53e-01   -4.64e-01   -4.65e-01
+Vdsat:     1.51e-01    1.53e-01    1.53e-01   -2.10e-01   -2.14e-01
+Gm:        1.47e-02    2.04e-03    2.05e-03    3.79e-04    1.24e-02
+Gds:       2.94e-04    1.72e-05    1.69e-05    3.59e-06    1.01e-04
+Gmb        3.04e-03    5.51e-04    5.52e-04    1.22e-04    4.07e-03
+Cbd:       2.84e-14    5.39e-14    5.38e-14    9.50e-15    2.08e-13
+Cbs:       3.85e-14    5.89e-14    5.89e-14    1.19e-14    3.38e-13
+Cgsov:     3.15e-14    1.54e-14    1.54e-14    7.82e-15    2.25e-13
+Cgdov:     3.15e-14    1.54e-14    1.54e-14    7.82e-15    2.25e-13
+Cgbov:     1.53e-19    4.23e-19    4.23e-19    4.01e-19    4.01e-19
+dQgdVgb:   1.08e-13    9.01e-14    9.01e-14    4.67e-14    1.34e-12
+dQgdVdb:  -3.14e-14   -1.54e-14   -1.54e-14   -7.83e-15   -2.25e-13
+dQgdVsb:  -7.19e-14   -7.07e-14   -7.07e-14   -3.78e-14   -1.08e-12
+dQddVgb:  -4.90e-14   -3.91e-14   -3.91e-14   -2.02e-14   -5.80e-13
+dQddVdb:   5.98e-14    6.93e-14    6.92e-14    1.73e-14    4.33e-13
+dQddVsb:   2.18e-14    3.08e-14    3.08e-14    1.64e-14    4.71e-13
+dQbdVgb:  -9.94e-15   -1.20e-14   -1.20e-14   -6.31e-15   -1.78e-13
+dQbdVdb:  -2.84e-14   -5.39e-14   -5.38e-14   -9.51e-15   -2.08e-13
+dQbdVsb:  -4.17e-14   -6.52e-14   -6.52e-14   -1.47e-14   -4.24e-13
+
+Name:     m:x1:in2    m:x1:in1   m:x1:biasin
+Model:      pmos        pmos        pmos
+Id:       -1.81e-04   -1.81e-04   -3.62e-04
+Vgs:      -9.81e-01   -9.80e-01   -7.09e-01
+Vds:      -2.80e+00   -2.83e+00   -1.52e+00
+Vbs:       1.52e+00    1.52e+00    0.00e+00
+Vth:      -8.56e-01   -8.56e-01   -4.65e-01
+Vdsat:    -1.47e-01   -1.46e-01   -2.14e-01
+Gm:        2.32e-03    2.31e-03    2.74e-03
+Gds:       8.84e-06    8.81e-06    2.37e-05
+Gmb        5.16e-04    5.15e-04    8.95e-04
+Cbd:       7.10e-14    7.08e-14    5.51e-14
+Cbs:       9.20e-14    9.20e-14    7.95e-14
+Cgsov:     8.82e-14    8.82e-14    5.28e-14
+Cgdov:     8.82e-14    8.82e-14    5.28e-14
+Cgbov:     4.01e-19    4.01e-19    4.01e-19
+dQgdVgb:   5.07e-13    5.07e-13    3.14e-13
+dQgdVdb:  -8.82e-14   -8.82e-14   -5.28e-14
+dQgdVsb:  -4.13e-13   -4.13e-13   -2.54e-13
+dQddVgb:  -2.24e-13   -2.24e-13   -1.36e-13
+dQddVdb:   1.59e-13    1.59e-13    1.08e-13
+dQddVsb:   1.66e-13    1.66e-13    1.11e-13
+dQbdVgb:  -5.82e-14   -5.82e-14   -4.19e-14
+dQbdVdb:  -7.10e-14   -7.08e-14   -5.51e-14
+dQbdVsb:  -9.84e-14   -9.84e-14   -9.95e-14
+
+
+
+Date: Sat May 23 12:53:09 2020
+Total elapsed time: 0.256 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 48
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 14
+fillins = 7
+solver = Normal
+Matrix Compiler1:      69 opcodes
+Matrix Compiler2:     113 opcodes

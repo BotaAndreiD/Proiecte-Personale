@@ -1,0 +1,53 @@
+#include <stdio.h>
+#include <string.h>
+
+#define LUNGIME 4000
+#define LUNGIME_BINAR 88
+#define ALFA 20  /* Intensitatea marcajului (factor parametrizabil) [cite: 78, 122] */
+
+/* Datele audio si secventa pseudoaleatoare PN [cite: 123, 127] */
+short audioIn[LUNGIME] = {
+    #include "audio_data.dat"
+};
+
+int secventaPN[LUNGIME] = {
+    #include "PN.dat"
+};
+
+short audioOut[LUNGIME];
+
+/* Variabile pentru mesaj [cite: 96] */
+static unsigned char mesaj_binar[LUNGIME_BINAR]; 
+/* ... presupunem ca mesaj_binar este deja populat prin conversie_binar ... */
+
+void main() {
+    int i, k, val;
+    float m_bipolar;
+
+    printf("--- Proiect TPI: Audio Spread Spectrum ---\n");
+
+    /* Inserarea marcajului conform legii aditive [cite: 75, 76] */
+    /* U(i) = I(i) + alfa * m(k) * PN(i) */
+    
+    for (i = 0; i < LUNGIME; i++) {
+        k = i % LUNGIME_BINAR; 
+        
+        /* Bitul de marcaj trebuie sa fie bipolar (-1 pentru 0, 1 pentru 1) [cite: 78, 142-144] */
+        if (mesaj_binar[k] == 0) 
+            m_bipolar = -1.0;
+        else 
+            m_bipolar = 1.0;
+
+        /* Calculam valoarea noua [cite: 145] */
+        val = audioIn[i] + (int)(ALFA * m_bipolar * secventaPN[i]);
+
+        /* Limitarea valorilor (clipping) pentru a preveni distorsiunile de debordare [cite: 146-150] */
+        if (val > 32767) val = 32767;
+        else if (val < -32768) val = -32768;
+
+        audioOut[i] = (short)val;
+    }
+
+    printf("Marcare prin spectru imprastiat finalizata.\n");
+    while(1);
+}
