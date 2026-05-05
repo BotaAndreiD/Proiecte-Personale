@@ -3,12 +3,13 @@
 
 #define LUNGIME 4000
 #define LUNGIME_MESAJ 11
-#define LUNGIME_BINAR 88 
+#define LUNGIME_BINAR 88
+
+extern void marcare_LSB(short *in, short *out, unsigned char *m_bin);
 
 short audioIn[LUNGIME] = {
     #include "audio_data.dat"
 };
-
 short audioOut[LUNGIME];
 
 static unsigned char mesaj[LUNGIME_MESAJ + 1] = "PROIECT TPI";
@@ -33,37 +34,32 @@ void conversie_text(unsigned char *src, unsigned char *dest, int nr_char) {
             dest[i] |= (src[i * 8 + j] << (7 - j));
         }
     }
-    dest[nr_char] = '\0'; 
+    dest[nr_char] = '\0';
 }
 
 void main() {
-    int i, adresa_bit;
-    int k = -1;
-    int masca_lsb = 0xFFFE; 
+    int i;
 
-    printf("--- Proiect TPI: Audio LSB (Small Buffer) ---\n");
+    printf("--- Proiect TPI: Audio LSB (Varianta C, Neoptimizata) ---\n");
 
     conversie_binar(mesaj, mesaj_binar, LUNGIME_MESAJ);
 
-    for (i = 0; i < LUNGIME; i++) {
-        adresa_bit = (++k) % LUNGIME_BINAR; 
-        audioOut[i] = (audioIn[i] & masca_lsb) | mesaj_binar[adresa_bit];
-    }
+    marcare_LSB(audioIn, audioOut, mesaj_binar);
 
     for (i = 0; i < LUNGIME_BINAR; i++) {
         mesaj_binar_extras[i] = audioOut[i] & 0x01;
     }
-    
+
     conversie_text(mesaj_binar_extras, mesaj_extras, LUNGIME_MESAJ);
 
     printf("Mesaj Original: %s\n", mesaj);
     printf("Mesaj Extras:   %s\n", mesaj_extras);
 
-    if(strcmp((char*)mesaj, (char*)mesaj_extras) == 0) {
+    if (strcmp((char*)mesaj, (char*)mesaj_extras) == 0) {
         printf("Status: Succes!\n");
     } else {
-        printf("Status: Eroare!\n");
+        printf("Status: Eroare la extractie!\n");
     }
 
-    while(1); 
+    while(1);
 }

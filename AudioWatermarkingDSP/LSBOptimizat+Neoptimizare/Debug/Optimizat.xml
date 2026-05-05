@@ -1,0 +1,2718 @@
+<?xml version="1.0" encoding='ISO-8859-1'?>
+<visualdsp-profile-session schema="1">
+	<session-summary>
+		<profile-session-name>"Blackfin Memory Instruction Samples 2"</profile-session-name>
+		<start-time>1778003196</start-time>
+		<time-elapsed>50</time-elapsed>
+		<profile-id>0</profile-id>
+		<memory-id>0</memory-id>
+		<ignore-no-debug-info-sample>0</ignore-no-debug-info-sample>
+		<enabled>1</enabled>
+		<filter-type>0</filter-type>
+		<total-sample-count>3775160</total-sample-count>
+	</session-summary>
+	<source-file-list>
+		<source-file name="C:\Users\botaa\Documents\TPI\Proiect\NewProject.c">
+			<source-line number="22" start="0xffa0131c" end="0xffa01324" sample-count="12">
+				<pc-address-list>
+					<pc-address address="0xffa0131c" sample-count="6">
+					</pc-address>
+					<pc-address address="0xffa01320" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01322" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01324" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="24" start="0xffa01326" end="0xffa0136a" sample-count="344">
+				<pc-address-list>
+					<pc-address address="0xffa01326" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01328" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa0132a" sample-count="32">
+					</pc-address>
+					<pc-address address="0xffa0132c" sample-count="24">
+					</pc-address>
+					<pc-address address="0xffa0132e" sample-count="24">
+					</pc-address>
+					<pc-address address="0xffa01330" sample-count="40">
+					</pc-address>
+					<pc-address address="0xffa01364" sample-count="66">
+					</pc-address>
+					<pc-address address="0xffa01366" sample-count="22">
+					</pc-address>
+					<pc-address address="0xffa01368" sample-count="22">
+					</pc-address>
+					<pc-address address="0xffa0136a" sample-count="110">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="25" start="0xffa01332" end="0xffa01362" sample-count="2420">
+				<pc-address-list>
+					<pc-address address="0xffa01332" sample-count="22">
+					</pc-address>
+					<pc-address address="0xffa01334" sample-count="286">
+					</pc-address>
+					<pc-address address="0xffa01336" sample-count="198">
+					</pc-address>
+					<pc-address address="0xffa01338" sample-count="198">
+					</pc-address>
+					<pc-address address="0xffa0133a" sample-count="308">
+					</pc-address>
+					<pc-address address="0xffa0135c" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa0135e" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa01360" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa01362" sample-count="880">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="26" start="0xffa0133c" end="0xffa0135a" sample-count="3366">
+				<pc-address-list>
+					<pc-address address="0xffa0133c" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa0133e" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa01340" sample-count="726">
+					</pc-address>
+					<pc-address address="0xffa01342" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa01344" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa01346" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa01348" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa0134c" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa0134e" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa01350" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa01352" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa01354" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa01356" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa01358" sample-count="352">
+					</pc-address>
+					<pc-address address="0xffa0135a" sample-count="176">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="29" start="0xffa0136c" end="0xffa01370" sample-count="22">
+				<pc-address-list>
+					<pc-address address="0xffa0136c" sample-count="4">
+					</pc-address>
+					<pc-address address="0xffa01370" sample-count="18">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="31" start="0xffa012b0" end="0xffa012ba" sample-count="14">
+				<pc-address-list>
+					<pc-address address="0xffa012b0" sample-count="6">
+					</pc-address>
+					<pc-address address="0xffa012b4" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa012b6" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa012b8" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa012ba" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="33" start="0xffa012bc" end="0xffa0130a" sample-count="338">
+				<pc-address-list>
+					<pc-address address="0xffa012bc" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa012be" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa012c0" sample-count="32">
+					</pc-address>
+					<pc-address address="0xffa012c2" sample-count="24">
+					</pc-address>
+					<pc-address address="0xffa012c4" sample-count="24">
+					</pc-address>
+					<pc-address address="0xffa012c6" sample-count="34">
+					</pc-address>
+					<pc-address address="0xffa01304" sample-count="66">
+					</pc-address>
+					<pc-address address="0xffa01306" sample-count="22">
+					</pc-address>
+					<pc-address address="0xffa01308" sample-count="22">
+					</pc-address>
+					<pc-address address="0xffa0130a" sample-count="110">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="34" start="0xffa012c8" end="0xffa012ce" sample-count="156">
+				<pc-address-list>
+					<pc-address address="0xffa012c8" sample-count="22">
+					</pc-address>
+					<pc-address address="0xffa012ca" sample-count="22">
+					</pc-address>
+					<pc-address address="0xffa012cc" sample-count="90">
+					</pc-address>
+					<pc-address address="0xffa012ce" sample-count="22">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="35" start="0xffa012d0" end="0xffa01302" sample-count="2420">
+				<pc-address-list>
+					<pc-address address="0xffa012d0" sample-count="22">
+					</pc-address>
+					<pc-address address="0xffa012d2" sample-count="286">
+					</pc-address>
+					<pc-address address="0xffa012d4" sample-count="198">
+					</pc-address>
+					<pc-address address="0xffa012d6" sample-count="198">
+					</pc-address>
+					<pc-address address="0xffa012d8" sample-count="308">
+					</pc-address>
+					<pc-address address="0xffa012fc" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa012fe" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa01300" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa01302" sample-count="880">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="36" start="0xffa012da" end="0xffa012fa" sample-count="4422">
+				<pc-address-list>
+					<pc-address address="0xffa012da" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa012dc" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa012de" sample-count="726">
+					</pc-address>
+					<pc-address address="0xffa012e0" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa012e2" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa012e4" sample-count="704">
+					</pc-address>
+					<pc-address address="0xffa012e6" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa012e8" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa012ea" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa012ec" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa012f0" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa012f2" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa012f4" sample-count="704">
+					</pc-address>
+					<pc-address address="0xffa012f6" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa012f8" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa012fa" sample-count="176">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="39" start="0xffa0130c" end="0xffa01312" sample-count="18">
+				<pc-address-list>
+					<pc-address address="0xffa0130c" sample-count="6">
+					</pc-address>
+					<pc-address address="0xffa0130e" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01310" sample-count="8">
+					</pc-address>
+					<pc-address address="0xffa01312" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="40" start="0xffa01314" end="0xffa0131a" sample-count="22">
+				<pc-address-list>
+					<pc-address address="0xffa01314" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01316" sample-count="4">
+					</pc-address>
+					<pc-address address="0xffa0131a" sample-count="16">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="42" start="0xffa01372" end="0xffa0137a" sample-count="12">
+				<pc-address-list>
+					<pc-address address="0xffa01372" sample-count="6">
+					</pc-address>
+					<pc-address address="0xffa01376" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01378" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa0137a" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="45" start="0xffa0137c" end="0xffa01384" sample-count="14">
+				<pc-address-list>
+					<pc-address address="0xffa0137c" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01380" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01384" sample-count="10">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="48" start="0xffa01388" end="0xffa013a2" sample-count="24">
+				<pc-address-list>
+					<pc-address address="0xffa01388" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa0138a" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa0138e" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01392" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01396" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa0139a" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa0139e" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa013a2" sample-count="10">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="52" start="0xffa013a6" end="0xffa013ba" sample-count="20">
+				<pc-address-list>
+					<pc-address address="0xffa013a6" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa013aa" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa013ae" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa013b2" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa013b6" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa013ba" sample-count="10">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="55" start="0xffa013be" end="0xffa013f0" sample-count="2148">
+				<pc-address-list>
+					<pc-address address="0xffa013be" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa013c0" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa013c2" sample-count="186">
+					</pc-address>
+					<pc-address address="0xffa013c4" sample-count="178">
+					</pc-address>
+					<pc-address address="0xffa013c8" sample-count="178">
+					</pc-address>
+					<pc-address address="0xffa013ca" sample-count="194">
+					</pc-address>
+					<pc-address address="0xffa013ea" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa013ec" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa013ee" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa013f0" sample-count="880">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="56" start="0xffa013cc" end="0xffa013e8" sample-count="2112">
+				<pc-address-list>
+					<pc-address address="0xffa013cc" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa013ce" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa013d2" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa013d6" sample-count="352">
+					</pc-address>
+					<pc-address address="0xffa013d8" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa013da" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa013dc" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa013de" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa013e2" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa013e6" sample-count="176">
+					</pc-address>
+					<pc-address address="0xffa013e8" sample-count="176">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="59" start="0xffa013f2" end="0xffa01408" sample-count="22">
+				<pc-address-list>
+					<pc-address address="0xffa013f2" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa013f4" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa013f8" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa013fc" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01400" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01404" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01408" sample-count="10">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="61" start="0xffa0140c" end="0xffa01418" sample-count="16">
+				<pc-address-list>
+					<pc-address address="0xffa0140c" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01410" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01414" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01418" sample-count="10">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="62" start="0xffa0141c" end="0xffa01428" sample-count="16">
+				<pc-address-list>
+					<pc-address address="0xffa0141c" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01420" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01424" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01428" sample-count="10">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="64" start="0xffa0142c" end="0xffa0143a" sample-count="18">
+				<pc-address-list>
+					<pc-address address="0xffa0142c" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01430" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01434" sample-count="10">
+					</pc-address>
+					<pc-address address="0xffa01438" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa0143a" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="65" start="0xffa0143c" end="0xffa01444" sample-count="14">
+				<pc-address-list>
+					<pc-address address="0xffa0143c" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01440" sample-count="2">
+					</pc-address>
+					<pc-address address="0xffa01444" sample-count="10">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="66" start="0xffa01448" end="0xffa01448" sample-count="10">
+				<pc-address-list>
+					<pc-address address="0xffa01448" sample-count="10">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="67" start="0xffa01456" end="0xffa01456" sample-count="3584358">
+				<pc-address-list>
+					<pc-address address="0xffa01456" sample-count="3584358">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+		</source-file>
+		<source-file name="C:\Users\botaa\Documents\TPI\Proiect\Debug\marcare_asm.asm">
+			<source-line number="6" start="0xffa01274" end="0xffa01274" sample-count="14">
+				<pc-address-list>
+					<pc-address address="0xffa01274" sample-count="14">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="9" start="0xffa01276" end="0xffa01276" sample-count="2">
+				<pc-address-list>
+					<pc-address address="0xffa01276" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="10" start="0xffa01278" end="0xffa01278" sample-count="2">
+				<pc-address-list>
+					<pc-address address="0xffa01278" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="11" start="0xffa0127a" end="0xffa0127a" sample-count="2">
+				<pc-address-list>
+					<pc-address address="0xffa0127a" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="14" start="0xffa0127c" end="0xffa0127c" sample-count="2">
+				<pc-address-list>
+					<pc-address address="0xffa0127c" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="16" start="0xffa0127e" end="0xffa0127e" sample-count="2">
+				<pc-address-list>
+					<pc-address address="0xffa0127e" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="17" start="0xffa01282" end="0xffa01282" sample-count="2">
+				<pc-address-list>
+					<pc-address address="0xffa01282" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="18" start="0xffa01286" end="0xffa01286" sample-count="2">
+				<pc-address-list>
+					<pc-address address="0xffa01286" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="21" start="0xffa01288" end="0xffa01288" sample-count="2">
+				<pc-address-list>
+					<pc-address address="0xffa01288" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="22" start="0xffa0128c" end="0xffa0128c" sample-count="2">
+				<pc-address-list>
+					<pc-address address="0xffa0128c" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="25" start="0xffa01290" end="0xffa01290" sample-count="2">
+				<pc-address-list>
+					<pc-address address="0xffa01290" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="28" start="0xffa01292" end="0xffa01292" sample-count="2">
+				<pc-address-list>
+					<pc-address address="0xffa01292" sample-count="2">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="31" start="0xffa01296" end="0xffa01296" sample-count="8000">
+				<pc-address-list>
+					<pc-address address="0xffa01296" sample-count="8000">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="34" start="0xffa01298" end="0xffa01298" sample-count="8000">
+				<pc-address-list>
+					<pc-address address="0xffa01298" sample-count="8000">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="37" start="0xffa0129a" end="0xffa0129a" sample-count="8000">
+				<pc-address-list>
+					<pc-address address="0xffa0129a" sample-count="8000">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="38" start="0xffa0129c" end="0xffa0129c" sample-count="8000">
+				<pc-address-list>
+					<pc-address address="0xffa0129c" sample-count="8000">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="41" start="0xffa0129e" end="0xffa0129e" sample-count="8000">
+				<pc-address-list>
+					<pc-address address="0xffa0129e" sample-count="8000">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="44" start="0xffa012a0" end="0xffa012a0" sample-count="8000">
+				<pc-address-list>
+					<pc-address address="0xffa012a0" sample-count="8000">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="45" start="0xffa012a2" end="0xffa012a2" sample-count="8000">
+				<pc-address-list>
+					<pc-address address="0xffa012a2" sample-count="8000">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="46" start="0xffa012a4" end="0xffa012a4" sample-count="71280">
+				<pc-address-list>
+					<pc-address address="0xffa012a4" sample-count="71280">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="47" start="0xffa012a6" end="0xffa012a6" sample-count="90">
+				<pc-address-list>
+					<pc-address address="0xffa012a6" sample-count="90">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="48" start="0xffa012a8" end="0xffa012a8" sample-count="90">
+				<pc-address-list>
+					<pc-address address="0xffa012a8" sample-count="90">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="51" start="0xffa012aa" end="0xffa012aa" sample-count="8000">
+				<pc-address-list>
+					<pc-address address="0xffa012aa" sample-count="8000">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="54" start="0xffa012ac" end="0xffa012ac" sample-count="14">
+				<pc-address-list>
+					<pc-address address="0xffa012ac" sample-count="14">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+			<source-line number="55" start="0xffa012ae" end="0xffa012ae" sample-count="10">
+				<pc-address-list>
+					<pc-address address="0xffa012ae" sample-count="10">
+					</pc-address>
+				</pc-address-list>
+			</source-line>
+		</source-file>
+	</source-file-list>
+	<execution-unit-list>
+		<profile-function name="main()" file="C:\Users\botaa\Documents\TPI\Proiect\NewProject.c" start-line-number="41" start-address="0xffa01372" end-address="0xffa01457" sample-count="3588784">
+		</profile-function>
+		<profile-function name="_marcare_LSB_asm()" file="C:\Users\botaa\Documents\TPI\Proiect\Debug\marcare_asm.asm" start-line-number="5" start-address="0xffa01274" end-address="0xffa012af" sample-count="135520">
+		</profile-function>
+		<profile-function name="__fputc" start-line-number="-1" start-address="0xffa01d14" end-address="0xffa01d7d" sample-count="15840">
+			<pc-address-list>
+				<pc-address address="0xffa01d14" sample-count="816">
+				</pc-address>
+				<pc-address address="0xffa01d18" sample-count="1088">
+				</pc-address>
+				<pc-address address="0xffa01d1a" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d1c" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d1e" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d20" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d22" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d24" sample-count="544">
+				</pc-address>
+				<pc-address address="0xffa01d26" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d28" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d2a" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d2c" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d2e" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d30" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d32" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d34" sample-count="336">
+				</pc-address>
+				<pc-address address="0xffa01d36" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d38" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d3c" sample-count="816">
+				</pc-address>
+				<pc-address address="0xffa01d3e" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d40" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d42" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d44" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d46" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d48" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d4a" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d4c" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d4e" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d50" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d52" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d54" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d56" sample-count="336">
+				</pc-address>
+				<pc-address address="0xffa01d58" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d5a" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d5c" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa01d5e" sample-count="1088">
+				</pc-address>
+				<pc-address address="0xffa01d60" sample-count="544">
+				</pc-address>
+				<pc-address address="0xffa01d64" sample-count="2176">
+				</pc-address>
+				<pc-address address="0xffa01d66" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01d68" sample-count="40">
+				</pc-address>
+				<pc-address address="0xffa01d6c" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01d6e" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01d70" sample-count="40">
+				</pc-address>
+				<pc-address address="0xffa01d72" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01d74" sample-count="40">
+				</pc-address>
+				<pc-address address="0xffa01d78" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01d7a" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01d7c" sample-count="40">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__doprnt_32" start-line-number="-1" start-address="0xffa02f7c" end-address="0xffa03115" sample-count="7440">
+			<pc-address-list>
+				<pc-address address="0xffa02f7c" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa02f80" sample-count="40">
+				</pc-address>
+				<pc-address address="0xffa02f82" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02f84" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02f86" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02f88" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02f8a" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02f8c" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02f8e" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02f90" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02f92" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02f96" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02f9a" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02f9e" sample-count="112">
+				</pc-address>
+				<pc-address address="0xffa02fa0" sample-count="112">
+				</pc-address>
+				<pc-address address="0xffa02fa2" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02fa4" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02fa6" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02fa8" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02faa" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02fac" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02fae" sample-count="232">
+				</pc-address>
+				<pc-address address="0xffa02fb0" sample-count="232">
+				</pc-address>
+				<pc-address address="0xffa02fb2" sample-count="232">
+				</pc-address>
+				<pc-address address="0xffa02fb4" sample-count="696">
+				</pc-address>
+				<pc-address address="0xffa02fb6" sample-count="232">
+				</pc-address>
+				<pc-address address="0xffa02fb8" sample-count="264">
+				</pc-address>
+				<pc-address address="0xffa02fba" sample-count="228">
+				</pc-address>
+				<pc-address address="0xffa02fbc" sample-count="228">
+				</pc-address>
+				<pc-address address="0xffa02fbe" sample-count="1140">
+				</pc-address>
+				<pc-address address="0xffa02fc0" sample-count="232">
+				</pc-address>
+				<pc-address address="0xffa02fc2" sample-count="1160">
+				</pc-address>
+				<pc-address address="0xffa02fc4" sample-count="232">
+				</pc-address>
+				<pc-address address="0xffa02fc6" sample-count="1192">
+				</pc-address>
+				<pc-address address="0xffa02fc8" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02fca" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02fcc" sample-count="40">
+				</pc-address>
+				<pc-address address="0xffa02fce" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa02fd2" sample-count="64">
+				</pc-address>
+				<pc-address address="0xffa02fd4" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02fd6" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02fd8" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02fda" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02fdc" sample-count="20">
+				</pc-address>
+				<pc-address address="0xffa02fe0" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02fe2" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02fe6" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02fea" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02fee" sample-count="20">
+				</pc-address>
+				<pc-address address="0xffa030c6" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030c8" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030cc" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030d0" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030d2" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030d4" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030d6" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030d8" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030da" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030dc" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030de" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030e0" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030e2" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030e4" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030e6" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030e8" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030ea" sample-count="20">
+				</pc-address>
+				<pc-address address="0xffa030ec" sample-count="48">
+				</pc-address>
+				<pc-address address="0xffa030ee" sample-count="48">
+				</pc-address>
+				<pc-address address="0xffa030f0" sample-count="256">
+				</pc-address>
+				<pc-address address="0xffa030f2" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030f4" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030f6" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030f8" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030fa" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030fc" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa030fe" sample-count="20">
+				</pc-address>
+				<pc-address address="0xffa03102" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa03104" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa03106" sample-count="20">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="conversie_text(unsigned char*, unsigned char*, int)" file="C:\Users\botaa\Documents\TPI\Proiect\NewProject.c" start-line-number="30" start-address="0xffa012b0" end-address="0xffa0131b" sample-count="7390">
+		</profile-function>
+		<profile-function name="conversie_binar(unsigned char*, unsigned char*, int)" file="C:\Users\botaa\Documents\TPI\Proiect\NewProject.c" start-line-number="21" start-address="0xffa0131c" end-address="0xffa01371" sample-count="6164">
+		</profile-function>
+		<profile-function name="__theputchar" start-line-number="-1" start-address="0xffa03154" end-address="0xffa03167" sample-count="5712">
+			<pc-address-list>
+				<pc-address address="0xffa03154" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa03156" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa03158" sample-count="816">
+				</pc-address>
+				<pc-address address="0xffa0315c" sample-count="272">
+				</pc-address>
+				<pc-address address="0xffa0315e" sample-count="1360">
+				</pc-address>
+				<pc-address address="0xffa03162" sample-count="544">
+				</pc-address>
+				<pc-address address="0xffa03166" sample-count="2176">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="_PRIMITIVE_WRITE2" start-line-number="-1" start-address="0xffa02488" end-address="0xffa024f7" sample-count="1052">
+			<pc-address-list>
+				<pc-address address="0xffa02488" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa0248c" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa0248e" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02490" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02492" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02496" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02498" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa0249a" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa0249e" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024a2" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024a6" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024a8" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024aa" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024ac" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024ae" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024b0" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024b4" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024b6" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024b8" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024ba" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024bc" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024be" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024c0" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024c2" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024c4" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024c6" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024c8" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024ca" sample-count="84">
+				</pc-address>
+				<pc-address address="0xffa024cc" sample-count="40">
+				</pc-address>
+				<pc-address address="0xffa024ce" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024d0" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024d2" sample-count="40">
+				</pc-address>
+				<pc-address address="0xffa024d6" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa024d8" sample-count="96">
+				</pc-address>
+				<pc-address address="0xffa024da" sample-count="80">
+				</pc-address>
+				<pc-address address="0xffa024dc" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024de" sample-count="48">
+				</pc-address>
+				<pc-address address="0xffa024e0" sample-count="40">
+				</pc-address>
+				<pc-address address="0xffa024e2" sample-count="48">
+				</pc-address>
+				<pc-address address="0xffa024e4" sample-count="96">
+				</pc-address>
+				<pc-address address="0xffa024e6" sample-count="64">
+				</pc-address>
+				<pc-address address="0xffa024ea" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024ec" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa024ee" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa024f0" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa024f2" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa024f6" sample-count="64">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__put_string" start-line-number="-1" start-address="0xffa03118" end-address="0xffa03153" sample-count="936">
+			<pc-address-list>
+				<pc-address address="0xffa03118" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa0311c" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa0311e" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa03120" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa03122" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa03124" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa03126" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa03128" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0312a" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0312c" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0312e" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa03130" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa03132" sample-count="44">
+				</pc-address>
+				<pc-address address="0xffa03134" sample-count="44">
+				</pc-address>
+				<pc-address address="0xffa03136" sample-count="44">
+				</pc-address>
+				<pc-address address="0xffa03138" sample-count="44">
+				</pc-address>
+				<pc-address address="0xffa0313a" sample-count="44">
+				</pc-address>
+				<pc-address address="0xffa0313c" sample-count="44">
+				</pc-address>
+				<pc-address address="0xffa0313e" sample-count="220">
+				</pc-address>
+				<pc-address address="0xffa03140" sample-count="44">
+				</pc-address>
+				<pc-address address="0xffa03142" sample-count="236">
+				</pc-address>
+				<pc-address address="0xffa03144" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa03146" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa03148" sample-count="36">
+				</pc-address>
+				<pc-address address="0xffa0314a" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0314c" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa0314e" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa03152" sample-count="32">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="___spswitch32" start-line-number="-1" start-address="0xffa01854" end-address="0xffa01883" sample-count="776">
+			<pc-address-list>
+				<pc-address address="0xffa01854" sample-count="36">
+				</pc-address>
+				<pc-address address="0xffa01856" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa01858" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa0185a" sample-count="36">
+				</pc-address>
+				<pc-address address="0xffa0185c" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa0185e" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa01862" sample-count="136">
+				</pc-address>
+				<pc-address address="0xffa01864" sample-count="100">
+				</pc-address>
+				<pc-address address="0xffa01866" sample-count="28">
+				</pc-address>
+				<pc-address address="0xffa01868" sample-count="28">
+				</pc-address>
+				<pc-address address="0xffa0186a" sample-count="28">
+				</pc-address>
+				<pc-address address="0xffa0186c" sample-count="28">
+				</pc-address>
+				<pc-address address="0xffa0186e" sample-count="28">
+				</pc-address>
+				<pc-address address="0xffa01870" sample-count="48">
+				</pc-address>
+				<pc-address address="0xffa01872" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01874" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01876" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01878" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa0187a" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa0187c" sample-count="20">
+				</pc-address>
+				<pc-address address="0xffa0187e" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa01880" sample-count="36">
+				</pc-address>
+				<pc-address address="0xffa01882" sample-count="60">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="_dev_write" start-line-number="-1" start-address="0xffa01c00" end-address="0xffa01c67" sample-count="676">
+			<pc-address-list>
+				<pc-address address="0xffa01c00" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01c04" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01c06" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c08" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c0a" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c0c" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c0e" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c10" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c12" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c14" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c16" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c18" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c1a" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c1c" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c1e" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c20" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c24" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c28" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c2a" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c2c" sample-count="50">
+				</pc-address>
+				<pc-address address="0xffa01c2e" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa01c32" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c34" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c38" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c3c" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c3e" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c40" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c42" sample-count="32">
+				</pc-address>
+				<pc-address address="0xffa01c44" sample-count="32">
+				</pc-address>
+				<pc-address address="0xffa01c46" sample-count="72">
+				</pc-address>
+				<pc-address address="0xffa01c48" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c4a" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c4e" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c52" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c54" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c56" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c58" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c5a" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa01c5c" sample-count="64">
+				</pc-address>
+				<pc-address address="0xffa01c5e" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01c60" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01c62" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa01c66" sample-count="64">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__parse_format" start-line-number="-1" start-address="0xffa021ac" end-address="0xffa022fd" sample-count="600">
+			<pc-address-list>
+				<pc-address address="0xffa021ac" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa021b0" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021b2" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa021b4" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021b6" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021b8" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021ba" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021be" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021c2" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021c4" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021c6" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021c8" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021cc" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021d0" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021d4" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021d8" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021dc" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021de" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021e0" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021e2" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021e4" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021e6" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021e8" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021ea" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021ec" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021f0" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021f4" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa021f6" sample-count="20">
+				</pc-address>
+				<pc-address address="0xffa02200" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02202" sample-count="36">
+				</pc-address>
+				<pc-address address="0xffa02204" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02206" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02208" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0220a" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0220c" sample-count="20">
+				</pc-address>
+				<pc-address address="0xffa02210" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa02212" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02214" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02216" sample-count="36">
+				</pc-address>
+				<pc-address address="0xffa02218" sample-count="0">
+				</pc-address>
+				<pc-address address="0xffa02220" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02222" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02224" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02226" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02228" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0222a" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0222c" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0222e" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02230" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02234" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02238" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa0223a" sample-count="20">
+				</pc-address>
+				<pc-address address="0xffa0227a" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0227c" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02280" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02282" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa02284" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02286" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0228a" sample-count="36">
+				</pc-address>
+				<pc-address address="0xffa02298" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0229c" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0229e" sample-count="36">
+				</pc-address>
+				<pc-address address="0xffa022a0" sample-count="0">
+				</pc-address>
+				<pc-address address="0xffa022a4" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa022a8" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa022aa" sample-count="36">
+				</pc-address>
+				<pc-address address="0xffa022ac" sample-count="0">
+				</pc-address>
+				<pc-address address="0xffa022b0" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa022b2" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa022b4" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa022b6" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa022b8" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa022ba" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa022bc" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa022c0" sample-count="32">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__flushwritebuf" start-line-number="-1" start-address="0xffa01fbc" end-address="0xffa02055" sample-count="596">
+			<pc-address-list>
+				<pc-address address="0xffa01fbc" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01fc0" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01fc2" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fc4" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fc6" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fc8" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fca" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fcc" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa01fce" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fd0" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fd2" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fd4" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fd6" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fd8" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fda" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fde" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fe0" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fe2" sample-count="72">
+				</pc-address>
+				<pc-address address="0xffa01fec" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01fee" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01ff0" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa01ff4" sample-count="64">
+				</pc-address>
+				<pc-address address="0xffa02000" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02002" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02004" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa02006" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02008" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa0200a" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa0200c" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa0200e" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02010" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02012" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02014" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02016" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa0201a" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa0201e" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02022" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02026" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02028" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa0202a" sample-count="40">
+				</pc-address>
+				<pc-address address="0xffa0202c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa02030" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa02032" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa02036" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa02038" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0203a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0203c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0203e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa02040" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa02042" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa02044" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa02046" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa02048" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0204a" sample-count="10">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__fflush" start-line-number="-1" start-address="0xffa01ca4" end-address="0xffa01cf9" sample-count="568">
+			<pc-address-list>
+				<pc-address address="0xffa01ca4" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01ca8" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01caa" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cac" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cae" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cb0" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01cb2" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cb4" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cb6" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cb8" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa01cba" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa01cbc" sample-count="80">
+				</pc-address>
+				<pc-address address="0xffa01cbe" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cc0" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cc4" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cc6" sample-count="40">
+				</pc-address>
+				<pc-address address="0xffa01cca" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01ccc" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cce" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cd0" sample-count="40">
+				</pc-address>
+				<pc-address address="0xffa01ce0" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01ce2" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01ce4" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01ce6" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa01cea" sample-count="64">
+				</pc-address>
+				<pc-address address="0xffa01cec" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cee" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cf0" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cf2" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cf4" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cf6" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01cf8" sample-count="40">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="start" start-line-number="-1" start-address="0xffa00000" end-address="0xffa000e7" sample-count="414">
+			<pc-address-list>
+				<pc-address address="0xffa00000" sample-count="20">
+				</pc-address>
+				<pc-address address="0xffa00004" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00008" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0000c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0000e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00012" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00016" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00018" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0001a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0001c" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa0001e" sample-count="20">
+				</pc-address>
+				<pc-address address="0xffa00020" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa00022" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00024" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00026" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00028" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0002c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00030" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00034" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00038" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0003a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0003c" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa0003e" sample-count="22">
+				</pc-address>
+				<pc-address address="0xffa00040" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa00044" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00048" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0004a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0004c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00050" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00054" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00058" sample-count="98">
+				</pc-address>
+				<pc-address address="0xffa0005a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0005e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00062" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa00064" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00068" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0006c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0006e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00070" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00072" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00076" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00078" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa0007c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0007e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00080" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa00082" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00084" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa00088" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0008c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00090" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00092" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00094" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00096" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00098" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa000b2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa000b4" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa000b6" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa000ba" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa000be" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa000c0" sample-count="20">
+				</pc-address>
+				<pc-address address="0xffa000c2" sample-count="14">
+				</pc-address>
+				<pc-address address="0xffa000c4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa000c8" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa000cc" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa000ce" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa000d0" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa000d2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa000d4" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa000d8" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa000dc" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa000e0" sample-count="10">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__heap_malloc" start-line-number="-1" start-address="0xffa01930" end-address="0xffa01aaf" sample-count="368">
+			<pc-address-list>
+				<pc-address address="0xffa01930" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01934" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa01936" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01938" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0193a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0193c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0193e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01940" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01942" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa01946" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01948" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0194a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0194c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0194e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01950" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01952" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01954" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01956" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01958" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0195a" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0195c" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0195e" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01960" sample-count="36">
+				</pc-address>
+				<pc-address address="0xffa0198a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0198c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0198e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01990" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01992" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01994" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01996" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01998" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa0199a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0199c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0199e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa019a0" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa019a2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa019a4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa019a6" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa019a8" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa019aa" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa019ac" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa019ae" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa019b2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa019b4" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa01a34" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a38" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a3c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a3e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a40" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a42" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a44" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a46" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa01a4a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a4c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a4e" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa01a5a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a5c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a64" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a6c" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa01a70" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa01a72" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01a74" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01a76" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01a78" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01a7c" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa01a7e" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01a80" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01a82" sample-count="20">
+				</pc-address>
+				<pc-address address="0xffa01a84" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a86" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a88" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a8a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a8c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a8e" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa01a96" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a98" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01a9a" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa01a9c" sample-count="10">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="_printf" start-line-number="-1" start-address="0xffa01ddc" end-address="0xffa01e11" sample-count="272">
+			<pc-address-list>
+				<pc-address address="0xffa01ddc" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01de0" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01de2" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01de4" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01de6" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01de8" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01dea" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01dec" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01dee" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01df0" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01df2" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01df4" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01df6" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01dfa" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01dfe" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01e00" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01e04" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01e08" sample-count="40">
+				</pc-address>
+				<pc-address address="0xffa01e0c" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa01e10" sample-count="64">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__heap_address_from_index" start-line-number="-1" start-address="0xffa017f2" end-address="0xffa0183d" sample-count="264">
+			<pc-address-list>
+				<pc-address address="0xffa017f2" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa017f6" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa017f8" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa017fa" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa017fe" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01802" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01804" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01806" sample-count="38">
+				</pc-address>
+				<pc-address address="0xffa01808" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa0180c" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa0180e" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01812" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01816" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01818" sample-count="36">
+				</pc-address>
+				<pc-address address="0xffa0181c" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa0182c" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa0182e" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01830" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01832" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01834" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa01838" sample-count="48">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="___init_devtabs" start-line-number="-1" start-address="0xffa01ba8" end-address="0xffa01bff" sample-count="244">
+			<pc-address-list>
+				<pc-address address="0xffa01ba8" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01bac" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01bae" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bb0" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bb2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bb6" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bba" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bbc" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bc0" sample-count="50">
+				</pc-address>
+				<pc-address address="0xffa01bc2" sample-count="50">
+				</pc-address>
+				<pc-address address="0xffa01bc4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bc8" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bcc" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bce" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bd0" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01bd2" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01bd4" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01bd6" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01bd8" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01bda" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01bdc" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01bde" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01be0" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01be2" sample-count="20">
+				</pc-address>
+				<pc-address address="0xffa01be4" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa01be8" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa01bea" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bee" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bf2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bf4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bf6" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01bf8" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01bfa" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01bfe" sample-count="16">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="___init_devdrv" start-line-number="-1" start-address="0xffa01b18" end-address="0xffa01ba7" sample-count="204">
+			<pc-address-list>
+				<pc-address address="0xffa01b18" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01b1c" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01b1e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b20" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b22" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b24" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b28" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b2c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b2e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b30" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b32" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b34" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b36" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b38" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b3a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b3c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b3e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b40" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b42" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b44" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b46" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b48" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b4a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b4c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b4e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b50" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b52" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b54" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b56" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b58" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b5a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b5c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b5e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b60" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b62" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b64" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b66" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa01b68" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b6a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b6c" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01b6e" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01b72" sample-count="16">
+				</pc-address>
+				<pc-address address="0xffa01b74" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b76" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b78" sample-count="14">
+				</pc-address>
+				<pc-address address="0xffa01b7a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b7c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b7e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b80" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b82" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b84" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b86" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b88" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b8a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b8c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b8e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b90" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b92" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b94" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b96" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b98" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b9a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b9c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01b9e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01ba0" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01ba2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01ba4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01ba6" sample-count="10">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="_strcmp" start-line-number="-1" start-address="0xffa0189c" end-address="0xffa0190d" sample-count="204">
+			<pc-address-list>
+				<pc-address address="0xffa0189c" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0189e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018a0" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018a2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018a4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018a6" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018a8" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018aa" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018ac" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018b0" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018b4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018b8" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018ba" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018bc" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018be" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa018c0" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa018c2" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa018c4" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa018cc" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa018ce" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa018d6" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa018d8" sample-count="22">
+				</pc-address>
+				<pc-address address="0xffa018da" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa018e0" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018e2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018e4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018e8" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018ea" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018ec" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa018f0" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa018f2" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa018fa" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa018fc" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa018fe" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01900" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa01902" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01904" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01908" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0190a" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0190c" sample-count="10">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__heap_install_impl" start-line-number="-1" start-address="0xffa016e0" end-address="0xffa0176f" sample-count="178">
+			<pc-address-list>
+				<pc-address address="0xffa016e0" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa016e2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa016e4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa016e6" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa016e8" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa016ea" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa016ec" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa016ee" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa016f0" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa016f2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa016f6" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa016fa" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa016fc" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa016fe" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01700" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01704" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01708" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0170a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0170c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0170e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01710" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01712" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa0172c" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa0172e" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa01730" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01732" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa01740" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01742" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01744" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01746" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01748" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0174a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0174c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0174e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01750" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01752" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01754" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01756" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01758" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0175a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0175c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0175e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01760" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01762" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa01764" sample-count="0">
+				</pc-address>
+				<pc-address address="0xffa0176a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0176c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0176e" sample-count="10">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__heap_free" start-line-number="-1" start-address="0xffa0152c" end-address="0xffa01613" sample-count="166">
+			<pc-address-list>
+				<pc-address address="0xffa0152c" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01530" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01532" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01534" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01536" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01538" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0153c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0153e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01540" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01542" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01544" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa01546" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01548" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0154a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0154c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0154e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01552" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01554" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01556" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01558" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0155a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0155c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01560" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa01564" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01566" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01568" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0156a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0156c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0156e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01570" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01572" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01574" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01576" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa015b4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa015b6" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa015b8" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa015ba" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa015bc" sample-count="0">
+				</pc-address>
+				<pc-address address="0xffa015c4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa015c6" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa015c8" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa015ca" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa015ce" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa0160e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01610" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01612" sample-count="10">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__primIO" start-line-number="-1" start-address="0xffa02300" end-address="0xffa02329" sample-count="160">
+			<pc-address-list>
+				<pc-address address="0xffa02300" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa02304" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02308" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa0230a" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa0230c" sample-count="72">
+				</pc-address>
+				<pc-address address="0xffa02328" sample-count="40">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__parse_field" start-line-number="-1" start-address="0xffa02160" end-address="0xffa021a9" sample-count="124">
+			<pc-address-list>
+				<pc-address address="0xffa02160" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02162" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02164" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02166" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02168" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0216a" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0216c" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0216e" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02170" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02172" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02174" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02176" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02178" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0217a" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0217c" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0217e" sample-count="24">
+				</pc-address>
+				<pc-address address="0xffa02186" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0218a" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa0218c" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0218e" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02190" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa02192" sample-count="8">
+				</pc-address>
+				<pc-address address="0xffa02194" sample-count="4">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__heap_Sbrk" start-line-number="-1" start-address="0xffa014a0" end-address="0xffa01517" sample-count="112">
+			<pc-address-list>
+				<pc-address address="0xffa014a0" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa014a4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014a6" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014ae" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014b0" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014b2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014b4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014b8" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014bc" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014be" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014c0" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa014c2" sample-count="0">
+				</pc-address>
+				<pc-address address="0xffa014d0" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa014d4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014d6" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014d8" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014da" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014dc" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014de" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014e0" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014e2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014e4" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014ec" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014ee" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014f0" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa014f2" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa014f4" sample-count="0">
+				</pc-address>
+				<pc-address address="0xffa014fe" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01500" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01502" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01504" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01506" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0150a" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0150c" sample-count="2">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__heap_initheaps" start-line-number="-1" start-address="0xffa01458" end-address="0xffa0149d" sample-count="104">
+			<pc-address-list>
+				<pc-address address="0xffa01458" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa0145c" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0145e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01460" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01464" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01468" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0146a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0146c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0146e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01470" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01472" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01476" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0147a" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0147c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0147e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01480" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01482" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01484" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01486" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01488" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0148a" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa0148e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01490" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01492" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa01494" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01496" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01498" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0149c" sample-count="16">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="_mi_initialize" start-line-number="-1" start-address="0xffa008f0" end-address="0xffa00a7f" sample-count="94">
+			<pc-address-list>
+				<pc-address address="0xffa008f0" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa008f4" sample-count="14">
+				</pc-address>
+				<pc-address address="0xffa008f6" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa008f8" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa008fc" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00900" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00902" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00904" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa00906" sample-count="12">
+				</pc-address>
+				<pc-address address="0xffa0090c" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0097c" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa0097e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00980" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa00982" sample-count="14">
+				</pc-address>
+				<pc-address address="0xffa00984" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa00988" sample-count="16">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__Getmem" start-line-number="-1" start-address="0xffa01910" end-address="0xffa0192f" sample-count="58">
+			<pc-address-list>
+				<pc-address address="0xffa01910" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01914" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01916" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01918" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa0191c" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa0191e" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01920" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01922" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01924" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01926" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01928" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa0192a" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa0192e" sample-count="16">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__getargv" start-line-number="-1" start-address="0xffa01ab0" end-address="0xffa01aff" sample-count="44">
+			<pc-address-list>
+				<pc-address address="0xffa01ab0" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01ab2" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01ab6" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01aba" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01abc" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01abe" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01ac0" sample-count="18">
+				</pc-address>
+				<pc-address address="0xffa01afa" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01afc" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01afe" sample-count="10">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="_malloc" start-line-number="-1" start-address="0xffa01840" end-address="0xffa01851" sample-count="40">
+			<pc-address-list>
+				<pc-address address="0xffa01840" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01842" sample-count="6">
+				</pc-address>
+				<pc-address address="0xffa01846" sample-count="2">
+				</pc-address>
+				<pc-address address="0xffa01848" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa0184c" sample-count="4">
+				</pc-address>
+				<pc-address address="0xffa01850" sample-count="16">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<profile-function name="__install_default_handlers" start-line-number="-1" start-address="0xffa01b00" end-address="0xffa01b03" sample-count="20">
+			<pc-address-list>
+				<pc-address address="0xffa01b00" sample-count="10">
+				</pc-address>
+				<pc-address address="0xffa01b02" sample-count="10">
+				</pc-address>
+			</pc-address-list>
+		</profile-function>
+		<pc-address address="0x0" sample-count="12">
+		</pc-address>
+		<pc-address address="0xffa01d90" sample-count="10">
+		</pc-address>
+		<pc-address address="0xffa01d92" sample-count="10">
+		</pc-address>
+		<pc-address address="0xffa01d8c" sample-count="2">
+		</pc-address>
+		<pc-address address="0xffa01d8e" sample-count="2">
+		</pc-address>
+	</execution-unit-list>
+</visualdsp-profile-session>

@@ -38,19 +38,24 @@ ifeq ($(MAKECMDGOALS),NewProject_Debug)
 
 NewProject_Debug : ./Debug/NewProject.dxe 
 
+./Debug/marcare_asm.doj :./Debug/marcare_asm.asm 
+	@echo ".\Debug\marcare_asm.asm"
+	$(VDSP)/easmblkfn.exe .\Debug\marcare_asm.asm -proc ADSP-BF533 -file-attr ProjectName=NewProject -g -o .\Debug\marcare_asm.doj -MM
+
 Debug/NewProject.doj :NewProject.c $(VDSP)/Blackfin/include/stdio.h $(VDSP)/Blackfin/include/yvals.h $(VDSP)/Blackfin/include/string.h audio_data.dat 
 	@echo ".\NewProject.c"
 	$(VDSP)/ccblkfn.exe -c .\NewProject.c -file-attr ProjectName=NewProject -g -structs-do-not-overlap -no-multiline -double-size-32 -decls-strong -warn-protos -proc ADSP-BF533 -o .\Debug\NewProject.doj -MM
 
-./Debug/NewProject.dxe :$(VDSP)/Blackfin/ldf/adsp-BF533.ldf $(VDSP)/Blackfin/lib/bf532_rev_0.5/crtsf532y.doj ./Debug/NewProject.doj $(VDSP)/Blackfin/lib/bf532_rev_0.5/__initsbsz532.doj $(VDSP)/Blackfin/lib/cplbtab533.doj $(VDSP)/Blackfin/lib/bf532_rev_0.5/crtn532y.doj $(VDSP)/Blackfin/lib/bf532_rev_0.5/libsmall532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libio532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libc532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/librt_fileio532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libevent532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libcpp532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libf64ieee532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libdsp532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libsftflt532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libetsi532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/Debug/libssl532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/Debug/libdrv532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/Debug/libusb532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libprofile532y.dlb 
+./Debug/NewProject.dxe :$(VDSP)/Blackfin/ldf/adsp-BF533.ldf $(VDSP)/Blackfin/lib/bf532_rev_0.5/crtsf532y.doj ./Debug/marcare_asm.doj ./Debug/NewProject.doj $(VDSP)/Blackfin/lib/bf532_rev_0.5/__initsbsz532.doj $(VDSP)/Blackfin/lib/cplbtab533.doj $(VDSP)/Blackfin/lib/bf532_rev_0.5/crtn532y.doj $(VDSP)/Blackfin/lib/bf532_rev_0.5/libsmall532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libio532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libc532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/librt_fileio532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libevent532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libcpp532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libf64ieee532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libdsp532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libsftflt532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libetsi532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/Debug/libssl532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/Debug/libdrv532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/Debug/libusb532y.dlb $(VDSP)/Blackfin/lib/bf532_rev_0.5/libprofile532y.dlb 
 	@echo "Linking..."
-	$(VDSP)/ccblkfn.exe .\Debug\NewProject.doj -L .\Debug -add-debug-libpaths -flags-link -od,.\Debug -o .\Debug\NewProject.dxe -proc ADSP-BF533 -MM
+	$(VDSP)/ccblkfn.exe .\Debug\marcare_asm.doj .\Debug\NewProject.doj -L .\Debug -add-debug-libpaths -flags-link -od,.\Debug -o .\Debug\NewProject.dxe -proc ADSP-BF533 -MM
 
 endif
 
 ifeq ($(MAKECMDGOALS),NewProject_Debug_clean)
 
 NewProject_Debug_clean:
+	-$(RM) ".\Debug\marcare_asm.doj"
 	-$(RM) "Debug\NewProject.doj"
 	-$(RM) ".\Debug\NewProject.dxe"
 	-$(RM) ".\Debug\*.ipa"
