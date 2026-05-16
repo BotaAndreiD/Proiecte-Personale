@@ -5,7 +5,6 @@
 #define LUNGIME_MESAJ 11
 #define LUNGIME_BINAR 88 
 
-/* Declaram functia externa scrisa in Assembly */
 extern void marcare_LSB_asm(short *in, short *out, unsigned char *m_bin);
 
 short audioIn[LUNGIME] = {
@@ -44,14 +43,10 @@ void main() {
 
     printf("--- Proiect TPI: Audio LSB Optimizat (Assembly) ---\n");
 
-    /* Pregatire date */
     conversie_binar(mesaj, mesaj_binar, LUNGIME_MESAJ);
 
-    /* APEL FUNCTIE OPTIMIZATA */
-    /* R0 = audioIn, R1 = audioOut, R2 = mesaj_binar */
     marcare_LSB_asm(audioIn, audioOut, mesaj_binar);
 
-    /* Extractie pentru verificare */
     for (i = 0; i < LUNGIME_BINAR; i++) {
         mesaj_binar_extras[i] = audioOut[i] & 0x01;
     }

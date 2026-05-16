@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RD3L150SNTL1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-10-09-10:20:07)
+    (mountForm default
+        (footprintRef "RD3P175SNFRATL")
+        (spec "System")
+    )
+)

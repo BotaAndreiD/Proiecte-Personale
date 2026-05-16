@@ -1,0 +1,15 @@
+Stray ".ends" card: .ends
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\Andrei\Desktop\TowThomasFilterandPGATransistorLevel\CAIF_Bota_Andrei\PGA\tb_AO_comp_RMCM_ClosedLoop.asc
+Start Time: Fri May 15 20:59:50 2026
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Note: .fourier statements are only valid with a .tran command.
+      No Fourier analysis performed.
+
+Total elapsed time: 0.056 seconds.
+

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SQJ148EP-T1_GE3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-01-19-13:59:28)
+    (mountForm default
+        (footprintRef "SQJ148EPT1_GE3")
+        (spec "System")
+    )
+)

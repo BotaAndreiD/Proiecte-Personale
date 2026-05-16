@@ -1,0 +1,32 @@
+Stray ".ends" card: .ends
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\Andrei\Desktop\TowThomasFilterandPGATransistorLevel\L5.PGA\L5B.Aplicatii_PGAcuAO\LTSipce\Etaje_de_amplificare\tb_PGA_serie_gain_step.asc
+Start Time: Fri May 15 16:09:46 2026
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+N-Period=1
+Fourier components of V(out)
+DC component:0.899312
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 1.000e+4	 1.029e-1	 1.000e+0	  -89.99°	    0.00°
+    2   	 2.000e+4	 1.437e-5	 1.396e-4	 -179.52°	  -89.53°
+    3   	 3.000e+4	 7.678e-8	 7.461e-7	   91.80°	  181.79°
+    4   	 4.000e+4	 8.748e-9	 8.501e-8	  168.01°	  257.99°
+    5   	 5.000e+4	 5.978e-9	 5.809e-8	  -89.57°	    0.42°
+    6   	 6.000e+4	 1.797e-9	 1.746e-8	  139.26°	  229.24°
+    7   	 7.000e+4	 2.188e-9	 2.126e-8	  -89.03°	    0.95°
+    8   	 8.000e+4	 8.940e-10	 8.687e-9	  115.71°	  205.70°
+    9   	 9.000e+4	 1.117e-9	 1.086e-8	  -88.23°	    1.76°
+   10   	 1.000e+5	 5.910e-10	 5.743e-9	  105.45°	  195.44°
+Partial Harmonic Distortion: 0.013961%
+Total Harmonic Distortion:   0.013891%
+
+
+Total elapsed time: 1.084 seconds.
+

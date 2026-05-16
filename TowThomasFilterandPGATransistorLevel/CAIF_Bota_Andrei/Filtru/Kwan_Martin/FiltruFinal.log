@@ -1,0 +1,84 @@
+Stray ".ends" card: .ends
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\Andrei\Desktop\TowThomasFilterandPGATransistorLevel\CAIF_Bota_Andrei\Filtru\Kwan_Martin\FiltruFinal.asc
+Start Time: Fri May 15 15:30:07 2026
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+Gmin = 2.99316e-05
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 2.9641e-05
+vernier = 0.0104167
+vernier = 0.0138889
+Gmin = 2.87802e-05
+vernier = 0.0185185
+vernier = 0.0246913
+Gmin = 2.74601e-05
+vernier = 0.0329218
+Gmin = 2.55066e-05
+vernier = 0.0438957
+vernier = 0.0585276
+Gmin = 2.25413e-05
+vernier = 0.0780367
+vernier = 0.104049
+Gmin = 1.85229e-05
+vernier = 0.138732
+Gmin = 1.36225e-05
+vernier = 0.184976
+vernier = 0.246634
+Gmin = 8.17559e-06
+vernier = 0.328846
+vernier = 0.438461
+Gmin = 3.66717e-06
+vernier = 0.584614
+Gmin = 1.06705e-06
+vernier = 0.779486
+vernier = 1
+Gmin = 1.50182e-07
+Gmin = 1.61257e-08
+Gmin = 1.73148e-09
+Gmin = 1.85916e-10
+Gmin = 1.99626e-11
+Gmin = 2.14347e-12
+Gmin = 2.30153e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+N-Period=1
+Fourier components of V(out)
+DC component:1.2457
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 1.700e+4	 3.950e-1	 1.000e+0	   91.23°	    0.00°
+    2   	 3.400e+4	 3.284e-3	 8.313e-3	    4.55°	  -86.68°
+    3   	 5.100e+4	 1.762e-3	 4.461e-3	   96.12°	    4.89°
+    4   	 6.800e+4	 8.000e-4	 2.025e-3	 -171.21°	 -262.44°
+    5   	 8.500e+4	 1.959e-4	 4.959e-4	  -89.60°	 -180.83°
+    6   	 1.020e+5	 4.293e-5	 1.087e-4	  -42.76°	 -133.98°
+    7   	 1.190e+5	 8.433e-5	 2.135e-4	 -149.33°	 -240.56°
+    8   	 1.360e+5	 5.585e-5	 1.414e-4	  119.08°	   27.85°
+    9   	 1.530e+5	 1.749e-4	 4.427e-4	   -5.36°	  -96.59°
+   10   	 1.700e+5	 3.007e-5	 7.612e-5	  -45.78°	 -137.00°
+Partial Harmonic Distortion: 0.967669%
+Total Harmonic Distortion:   0.968927%
+
+
+Total elapsed time: 2.117 seconds.
+

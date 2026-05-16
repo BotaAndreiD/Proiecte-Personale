@@ -1,9 +1,9 @@
 Stray ".ends" card: .ends
 LTspice 24.0.12 for Windows
-Circuit: * C:\Users\botaa\Documents\Proiecte-Personale\TowThomasFilterandPGATransistorLevel\CAIF_Bota_Andrei\Filtru\Kwan_Martin\tb_GM_KwanMartin.asc
-Start Time: Wed May 13 15:55:30 2026
+Circuit: * C:\Users\Andrei\Desktop\TowThomasFilterandPGATransistorLevel\CAIF_Bota_Andrei\Filtru\Kwan_Martin\tb_GM_KwanMartin.asc
+Start Time: Fri May 15 15:18:59 2026
 solver = Normal
-Maximum thread count: 12
+Maximum thread count: 20
 tnom = 27
 temp = 27
 method = trap
@@ -15,56 +15,37 @@ Gmin = 0.115292
 Gmin = 0.0123794
 Gmin = 0.00132923
 Gmin = 0.000142725
-vernier = 0.5
-Gmin = 2.39452e-05
-vernier = 0.25
-vernier = 0.125
-vernier = 0.0625
-vernier = 0.03125
-vernier = 0.015625
-Gmin = 2.25367e-05
-vernier = 0.0078125
-vernier = 0.00390625
-vernier = 0.00520833
-Gmin = 2.23396e-05
-vernier = 0.00694444
-vernier = 0.00925925
-Gmin = 2.19713e-05
-vernier = 0.0123457
-Gmin = 2.13867e-05
-vernier = 0.0164609
-vernier = 0.0219478
-Gmin = 2.04632e-05
-vernier = 0.0292638
-vernier = 0.0390184
-Gmin = 1.90825e-05
-vernier = 0.0520245
-Gmin = 1.7041e-05
-vernier = 0.0693659
-vernier = 0.0924879
-Gmin = 1.41677e-05
-vernier = 0.123317
-vernier = 0.164423
-Gmin = 1.05902e-05
-vernier = 0.21923
-Gmin = 6.63075e-06
-vernier = 0.292307
-vernier = 0.389743
-Gmin = 3.11507e-06
-vernier = 0.519657
-vernier = 0.692876
-Gmin = 9.65335e-07
-vernier = 0.923834
-Gmin = 1.53662e-07
-vernier = 1
-Gmin = 1.67545e-08
-Gmin = 1.799e-09
-Gmin = 1.93167e-10
-Gmin = 2.07411e-11
-Gmin = 2.22706e-12
-Gmin = 2.39129e-13
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.154 seconds.
+N-Period=1
+Fourier components of I(v1)
+DC component:3.67759e-05
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 1.700e+4	 1.995e-5	 1.000e+0	   90.02°	    0.00°
+    2   	 3.400e+4	 4.064e-9	 2.037e-4	  167.38°	   77.36°
+    3   	 5.100e+4	 1.002e-8	 5.021e-4	    1.97°	  -88.05°
+    4   	 6.800e+4	 2.904e-9	 1.456e-4	 -167.20°	 -257.22°
+    5   	 8.500e+4	 1.288e-8	 6.458e-4	 -154.94°	 -244.96°
+    6   	 1.020e+5	 3.485e-10	 1.747e-5	   -8.90°	  -98.92°
+    7   	 1.190e+5	 6.598e-9	 3.308e-4	   71.84°	  -18.19°
+    8   	 1.360e+5	 9.102e-10	 4.563e-5	   24.72°	  -65.31°
+    9   	 1.530e+5	 1.399e-8	 7.016e-4	  -19.98°	 -110.00°
+   10   	 1.700e+5	 1.013e-9	 5.080e-5	  145.01°	   54.99°
+Partial Harmonic Distortion: 0.115693%
+Total Harmonic Distortion:   0.129412%
+
+
+Total elapsed time: 0.478 seconds.
 

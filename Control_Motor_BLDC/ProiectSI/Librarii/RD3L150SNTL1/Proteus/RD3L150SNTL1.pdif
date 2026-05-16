@@ -1,0 +1,154 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "RD3L150SNTL1"
+   (description "MOSFET Nch 60V 15A TO-252 (DPAK)")
+   (family "TRX")
+   (package "RD3P175SNFRATL")
+   (attribute "Datasheet Link" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rd3l150sntl-e.pdf")
+   (attribute "Manufacturer_Name" "ROHM Semiconductor")
+   (attribute "Manufacturer_Part_Number" "RD3L150SNTL1")
+   (attribute "Mouser Part Number" "755-RD3L150SNTL1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RD3L150SNTL1?qs=YCa%2FAAYMW03JC0hEdrDgqA%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "RD3L150SNTL1")
+    (pin "G" 1 PS)
+    (pin "D" 2 PS)
+    (pin "S" 3 PS)
+   )
+  )
+  (symbol "RD3L150SNTL1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 100) (pt 100 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 300 300))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0) (pt 200 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 230 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 230 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 220) (pt 230 180))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 -20) (pt 230 20))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 80) (pt 230 120))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 230 100) (pt 270 120) (pt 270 80) (pt 230 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 80 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 400) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 -200) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RD3P175SNFRATL"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.3 4.25)
+      (pt 3.3 4.25)
+      (pt 3.3 -1.95)
+      (pt -3.3 -1.95)
+      (pt -3.3 4.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -4.3 6.25)
+      (pt 4.3 6.25)
+      (pt 4.3 -6.75)
+      (pt -4.3 -6.75)
+      (pt -4.3 6.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.3 -6.2)
+      (arc (pt -2.300 -6.200) (pt -2.350 -6.300) (pt -2.250 -6.200) (start 180.0) (sweep 90.0))
+      (pt -2.3 -6.3)
+      (arc (pt -2.300 -6.300) (pt -2.350 -6.300) (pt -2.250 -6.200) (start 180.0) (sweep -90.0))
+      (pt -2.3 -6.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.3 -1)
+      (pt -3.3 -1.95)
+      (pt 3.3 -1.95)
+      (pt 3.3 -1))))
+   (leg 1 (pt -2.300 -4.250) (padstack 0))
+   (leg 2 (pt 0.000 2.250) (padstack 2))
+   (leg 3 (pt 2.300 -4.250) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.600 3.000 0 0 90.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 6.000 6.000 0 0 90.000))
+   )
+   (model "RD3L150SNTL1.stp"
+    (euler 0 0 0)
+    (offset 195.58999633789062 -26.350000381469727 -84.2300033569336)
+   )
+  )
+ )
+)

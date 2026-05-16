@@ -1,0 +1,17 @@
+.SQJ148EP-T1_GE3 :1 ;MOSFET N Ch 40Vds 20Vgs AEC-Q101 Qualified
+SQJ148EPT1_GE3
+*STM Q
+*NGS
+*PLB 1="S_1" 2="S_2" 3="S_3" 4="G" 5="D_1" 6="D_2" 7="D_3" 8="D_4"
+*MXP 8
+*DFN SQJ148EP-T1_GE3
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (SQJ148EP-T1_GE3)
+~!Mouser Part Number (78-SQJ148EP-T1_GE3)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQJ148EP-T1_GE3?qs=G1ssh2j%252Bqz5yrigayqaTsg%3D%3D)
+~!Arrow Part Number (SQJ148EP-T1_GE3)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/sqj148ep-t1-ge3/vishay?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.vishay.com/docs/75162/sqj148ep.pdf)
+~!Height (1.267mm)
+SQJ148EP-T1_GE3
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

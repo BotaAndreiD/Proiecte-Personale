@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SQJ148EP_T1_GE3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "SQJ148EP-T1_GE3" (!) = "", "SQJ148EPT1_GE3", "Other", "78-SQJ148EP-T1_GE3", "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQJ148EP-T1_GE3?qs=G1ssh2j%252Bqz5yrigayqaTsg%3D%3D", "SQJ148EP-T1_GE3", "https://www.arrow.com/en/products/sqj148ep-t1-ge3/vishay?utm_currency=USD&region=nac", "MOSFET N Ch 40Vds 20Vgs AEC-Q101 Qualified", "http://www.vishay.com/docs/75162/sqj148ep.pdf", "1.267 mm"
+END_PART
+
+END.

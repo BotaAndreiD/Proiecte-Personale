@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RD3L150SNTL1
+#/1393666/1639990/2.50/3/2/MOSFET (N-Channel)
+DEF RD3L150SNTL1 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "RD3L150SNTL1" 450 50 50 H V L CNN
+F2 "RD3P175SNFRATL" 450 -50 50 H I L CNN
+F3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rd3l150sntl-e.pdf" 450 -150 50 H I L CNN
+F4 "MOSFET Nch 60V 15A TO-252 (DPAK)" 450 -250 50 H I L CNN "Description"
+F5 "" 450 -350 50 H I L CNN "Height"
+F6 "ROHM Semiconductor" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "RD3L150SNTL1" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "755-RD3L150SNTL1" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RD3L150SNTL1?qs=YCa%2FAAYMW03JC0hEdrDgqA%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 400 100 D 50 50 0 0 P
+X ~ 3 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

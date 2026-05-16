@@ -1,0 +1,18 @@
+.RD3L150SNTL1 :1 ;MOSFET Nch 60V 15A TO-252 (DPAK)
+RD3P175SNFRATL
+*STM Q
+*NGS
+*PLB 1="G" 2="D" 3="S"
+*MXP 3
+*DFN RD3L150SNTL1
+~!Manufacturer_Name (ROHM Semiconductor)
+~!Manufacturer_Part_Number (RD3L150SNTL1)
+~!Mouser Part Number (755-RD3L150SNTL1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/RD3L150SNTL1?qs=YCa%2FAAYMW03JC0hEdrDgqA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rd3l150sntl-e.pdf)
+~!Height (-)
+~!3D_Model (RD3L150SNTL1)
+RD3L150SNTL1
+1.1!U 2.1!U 3.1!U 
