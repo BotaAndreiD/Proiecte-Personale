@@ -1,7 +1,7 @@
 Stray ".ends" card: .ends
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\Andrei\Desktop\TowThomasFilterandPGATransistorLevel\L5.PGA\L5B.Aplicatii_PGAcuAO\LTSipce\PGA_etaje_identice+mux\tb_PGA_etaje_identice+mux.asc
-Start Time: Fri May 15 18:43:07 2026
+Start Time: Sat May 16 12:52:44 2026
 solver = Normal
 Maximum thread count: 20
 tnom = 27
@@ -47,5 +47,5 @@ Source stepping succeeded in finding the operating point.
 Note: .fourier statements are only valid with a .tran command.
       No Fourier analysis performed.
 
-Total elapsed time: 0.251 seconds.
+Total elapsed time: 0.244 seconds.
 

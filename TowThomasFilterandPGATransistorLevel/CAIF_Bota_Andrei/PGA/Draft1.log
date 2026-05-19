@@ -1,0 +1,50 @@
+Stray ".ends" card: .ends
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\Andrei\Desktop\TowThomasFilterandPGATransistorLevel\CAIF_Bota_Andrei\PGA\Draft1.asc
+Start Time: Sat May 16 12:13:14 2026
+solver = Normal
+Maximum thread count: 20
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+N-Period=1
+Fourier components of V(vout)
+DC component:1.24942
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 1.000e+4	 5.001e-1	 1.000e+0	   90.01°	    0.00°
+    2   	 2.000e+4	 3.437e-4	 6.874e-4	    3.81°	  -86.20°
+    3   	 3.000e+4	 1.184e-4	 2.367e-4	  -81.88°	 -171.89°
+    4   	 4.000e+4	 5.331e-5	 1.066e-4	   19.20°	  -70.81°
+    5   	 5.000e+4	 3.983e-5	 7.965e-5	  -89.39°	 -179.40°
+    6   	 6.000e+4	 8.216e-5	 1.643e-4	   53.95°	  -36.06°
+    7   	 7.000e+4	 3.474e-5	 6.947e-5	   -9.16°	  -99.17°
+    8   	 8.000e+4	 2.658e-4	 5.315e-4	   46.86°	  -43.15°
+    9   	 9.000e+4	 2.688e-4	 5.374e-4	  146.02°	   56.01°
+Partial Harmonic Distortion: 0.107207%
+Total Harmonic Distortion:   0.132337%
+
+
+Total elapsed time: 7.935 seconds.
+
