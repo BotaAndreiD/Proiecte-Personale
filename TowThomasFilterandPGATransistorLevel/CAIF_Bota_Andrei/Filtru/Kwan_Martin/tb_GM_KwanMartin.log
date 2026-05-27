@@ -1,9 +1,8 @@
-Stray ".ends" card: .ends
 LTspice 24.0.12 for Windows
-Circuit: * C:\Users\Andrei\Desktop\TowThomasFilterandPGATransistorLevel\CAIF_Bota_Andrei\Filtru\Kwan_Martin\tb_GM_KwanMartin.asc
-Start Time: Fri May 15 15:18:59 2026
+Circuit: * C:\Users\botaa\Desktop\TowThomasFilterandPGATransistorLevel\CAIF_Bota_Andrei\Filtru\Kwan_Martin\tb_GM_KwanMartin.asc
+Start Time: Mon May 25 15:24:58 2026
 solver = Normal
-Maximum thread count: 20
+Maximum thread count: 12
 tnom = 27
 temp = 27
 method = trap
@@ -29,23 +28,25 @@ Gmin stepping succeeded in finding the operating point.
 
 N-Period=1
 Fourier components of I(v1)
-DC component:3.67759e-05
+DC component:-6.1045e-08
 
 Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
  Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
-    1   	 1.700e+4	 1.995e-5	 1.000e+0	   90.02°	    0.00°
-    2   	 3.400e+4	 4.064e-9	 2.037e-4	  167.38°	   77.36°
-    3   	 5.100e+4	 1.002e-8	 5.021e-4	    1.97°	  -88.05°
-    4   	 6.800e+4	 2.904e-9	 1.456e-4	 -167.20°	 -257.22°
-    5   	 8.500e+4	 1.288e-8	 6.458e-4	 -154.94°	 -244.96°
-    6   	 1.020e+5	 3.485e-10	 1.747e-5	   -8.90°	  -98.92°
-    7   	 1.190e+5	 6.598e-9	 3.308e-4	   71.84°	  -18.19°
-    8   	 1.360e+5	 9.102e-10	 4.563e-5	   24.72°	  -65.31°
-    9   	 1.530e+5	 1.399e-8	 7.016e-4	  -19.98°	 -110.00°
-   10   	 1.700e+5	 1.013e-9	 5.080e-5	  145.01°	   54.99°
-Partial Harmonic Distortion: 0.115693%
-Total Harmonic Distortion:   0.129412%
+    1   	 1.700e+5	 3.985e-5	 1.000e+0	   90.08°	    0.00°
+    2   	 3.400e+5	 1.706e-8	 4.281e-4	    7.84°	  -82.24°
+    3   	 5.100e+5	 1.906e-8	 4.783e-4	  -85.42°	 -175.50°
+    4   	 6.800e+5	 3.247e-10	 8.148e-6	 -136.17°	 -226.25°
+    5   	 8.500e+5	 3.529e-9	 8.854e-5	   89.91°	   -0.16°
+    6   	 1.020e+6	 3.239e-10	 8.126e-6	  164.96°	   74.88°
+    7   	 1.190e+6	 6.103e-10	 1.531e-5	  -96.01°	 -186.09°
+    8   	 1.360e+6	 3.285e-10	 8.243e-6	  -15.23°	 -105.31°
+    9   	 1.530e+6	 2.675e-10	 6.712e-6	   70.41°	  -19.67°
+   10   	 1.700e+6	 3.084e-10	 7.739e-6	  160.32°	   70.25°
+Partial Harmonic Distortion: 0.064837%
+Total Harmonic Distortion:   0.077076%
 
 
-Total elapsed time: 0.478 seconds.
+
+
+Total elapsed time: 0.393 seconds.
 
