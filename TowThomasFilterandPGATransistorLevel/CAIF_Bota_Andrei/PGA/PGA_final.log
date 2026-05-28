@@ -1,7 +1,7 @@
 Stray ".ends" card: .ends
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\botaa\Desktop\TowThomasFilterandPGATransistorLevel\CAIF_Bota_Andrei\PGA\PGA_final.asc
-Start Time: Mon May 25 15:59:16 2026
+Start Time: Wed May 27 22:08:15 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -37,358 +37,36 @@ Gmin stepping failed
 Starting source stepping with srcstepmethod=0
 Source Step = 3.0303%
 Source Step = 25.7576%
-Source Step = 26.5299%
-Source Step = 26.5595%
-Source Step = 26.5891%
-Source Step = 26.6187%
-Source Step = 26.6483%
-vernier = 0.00146484
-Source Step = 26.6824%
-Source Step = 26.7267%
-Source Step = 26.7711%
-Source Step = 26.8155%
-Source Step = 26.8599%
-vernier = 0.00219727
-Source Step = 26.9087%
-Source Step = 26.9753%
-Source Step = 27.0419%
-Source Step = 27.1085%
-Source Step = 27.1751%
-vernier = 0.0032959
-Source Step = 27.245%
-Source Step = 27.3449%
-Source Step = 27.4447%
-Source Step = 27.5446%
-Source Step = 27.6445%
-Source Step = 27.7444%
-vernier = 0.00494385
-Source Step = 27.8942%
-Source Step = 28.044%
-Source Step = 28.1938%
-Source Step = 28.3436%
-Source Step = 28.4934%
-vernier = 0.00741577
-Source Step = 28.7107%
-Source Step = 28.9354%
-Source Step = 29.1601%
-Source Step = 29.3848%
-Source Step = 29.6095%
-vernier = 0.0111237
-Source Step = 29.9241%
-Source Step = 30.2612%
-Source Step = 30.5983%
-Source Step = 30.9354%
-Source Step = 31.2725%
-vernier = 0.0166855
-Source Step = 31.7275%
-Source Step = 32.2332%
-Source Step = 32.7388%
-Source Step = 33.2444%
-Source Step = 33.75%
-vernier = 0.0250282
-Source Step = 34.4073%
-Source Step = 35.1658%
-Source Step = 35.9242%
-Source Step = 36.6826%
-Source Step = 37.441%
-vernier = 0.0375423
-Source Step = 38.3891%
-Source Step = 39.5267%
-Source Step = 40.6644%
-Source Step = 41.802%
-Source Step = 42.9397%
-vernier = 0.0563135
-Source Step = 44.3048%
-Source Step = 46.0113%
-Source Step = 47.7178%
-Source Step = 49.4243%
-Source Step = 51.1307%
-vernier = 0.0844703
-Source Step = 53.0932%
-Source Step = 55.6529%
-Source Step = 58.2126%
-Source Step = 60.7723%
-Source Step = 63.332%
-vernier = 0.126705
-Source Step = 66.1477%
-Source Step = 69.9872%
-Source Step = 73.8268%
-Source Step = 77.6663%
-Source Step = 81.5059%
-vernier = 0.190058
-Source Step = 85.5374%
-Source Step = 90.2889%
-vernier = 0.0118786
-Source Step = 90.2259%
-Source Step = 90.3159%
-Source Step = 90.4059%
-Source Step = 90.4959%
-Source Step = 90.5859%
-Source Step = 90.6758%
-Source Step = 90.7658%
-Source Step = 90.8558%
-Source Step = 90.9458%
-Source Step = 91.0358%
-Source Step = 91.1258%
-Source Step = 91.2158%
-Source Step = 91.3058%
-Source Step = 91.3958%
-Source Step = 91.4857%
-Source Step = 91.5757%
-Source Step = 91.6657%
-Source Step = 91.7557%
-Source Step = 91.8457%
-Source Step = 91.9357%
-Source Step = 92.0257%
-Source Step = 92.1157%
-Source Step = 92.2057%
-Source Step = 92.2957%
-Source Step = 92.3856%
-Source Step = 92.4756%
-Source Step = 92.5656%
-Source Step = 92.6556%
-Source Step = 92.7456%
-Source Step = 92.8356%
-Source Step = 92.9256%
-Source Step = 93.0156%
-Source Step = 93.1056%
-Source Step = 93.1956%
-Source Step = 93.2855%
-Source Step = 93.3755%
-Source Step = 93.4655%
-Source Step = 93.5555%
-Source Step = 93.6455%
-Source Step = 93.7355%
-Source Step = 93.8255%
-Source Step = 93.9155%
-Source Step = 94.0055%
-Source Step = 94.0954%
-Source Step = 94.1854%
-Source Step = 94.2754%
-Source Step = 94.3654%
-Source Step = 94.4554%
-Source Step = 94.5454%
-Source Step = 94.6354%
-Source Step = 94.7254%
-Source Step = 94.8154%
-Source Step = 94.9054%
-Source Step = 94.9953%
-Source Step = 95.0853%
-Source Step = 95.1753%
-Source Step = 95.2653%
-Source Step = 95.3553%
-Source Step = 95.4453%
-Source Step = 95.5353%
-Source Step = 95.6253%
-Source Step = 95.7153%
-Source Step = 95.8053%
-Source Step = 95.8952%
-Source Step = 95.9852%
-Source Step = 96.0752%
-Source Step = 96.1652%
-Source Step = 96.2552%
-Source Step = 96.3452%
-Source Step = 96.4352%
-Source Step = 96.5252%
-Source Step = 96.6152%
-Source Step = 96.7051%
-Source Step = 96.7951%
-Source Step = 96.8851%
-Source Step = 96.9751%
-Source Step = 97.0651%
-Source Step = 97.1551%
-Source Step = 97.2451%
-Source Step = 97.3351%
-Source Step = 97.4251%
-Source Step = 97.5151%
-Source Step = 97.605%
-Source Step = 97.695%
-Source Step = 97.785%
-Source Step = 97.875%
-Source Step = 97.965%
-Source Step = 98.055%
-Source Step = 98.145%
-Source Step = 98.235%
-Source Step = 98.325%
-Source Step = 98.4149%
-Source Step = 98.5049%
-Source Step = 98.5949%
-Source Step = 98.6849%
-Source Step = 98.7749%
-Source Step = 98.8649%
-Source Step = 98.9549%
-Source Step = 99.0449%
-Source Step = 99.1349%
-Source Step = 99.2249%
-Source Step = 99.3148%
-Source Step = 99.4048%
-Source Step = 99.4948%
-Source Step = 99.5848%
-Source Step = 99.6748%
-Source Step = 99.7648%
-Source Step = 99.8548%
-Source Step = 99.9448%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Source stepping aborted.
-Starting source stepping with srcstepmethod=1
-Source Step = 3.0303%
 Source Step = 33.3333%
-Source Step = 63.6364%
-Source Step = 93.9394%
-Source Step = 96.9815%
-Source Step = 97.0111%
-Source Step = 97.0407%
-Source Step = 97.0703%
-Source Step = 97.0999%
-Source Step = 97.1295%
-Source Step = 97.1591%
-Source Step = 97.1887%
-Source Step = 97.2183%
-Source Step = 97.2479%
-Source Step = 97.2775%
-Source Step = 97.3071%
-Source Step = 97.3366%
-Source Step = 97.3662%
-Source Step = 97.3958%
-Source Step = 97.4254%
-Source Step = 97.455%
-Source Step = 97.4846%
-Source Step = 97.5142%
-Source Step = 97.5438%
-Source Step = 97.5734%
-Source Step = 97.603%
-Source Step = 97.6326%
-Source Step = 97.6622%
-Source Step = 97.6918%
-Source Step = 97.7214%
-Source Step = 97.7509%
-Source Step = 97.7805%
-Source Step = 97.8101%
-Source Step = 97.8397%
-Source Step = 97.8693%
-Source Step = 97.8989%
-Source Step = 97.9285%
-Source Step = 97.9581%
-Source Step = 97.9877%
-Source Step = 98.0173%
-Source Step = 98.0469%
-Source Step = 98.0765%
+Source Step = 40.9091%
+Source Step = 48.4848%
+Source Step = 56.0606%
+vernier = 0.375
+Source Step = 64.0152%
+Source Step = 75.3788%
+Source Step = 86.7424%
 Source Step = 98.1061%
-Source Step = 98.1357%
-Source Step = 98.1652%
-Source Step = 98.1948%
-Source Step = 98.2244%
-Source Step = 98.254%
-Source Step = 98.2836%
-Source Step = 98.3132%
-Source Step = 98.3428%
-Source Step = 98.3724%
-Source Step = 98.402%
-Source Step = 98.4316%
-Source Step = 98.4612%
-Source Step = 98.4908%
-Source Step = 98.5204%
-Source Step = 98.55%
-Source Step = 98.5795%
-Source Step = 98.6091%
-Source Step = 98.6387%
-Source Step = 98.6683%
-Source Step = 98.6979%
-Source Step = 98.7275%
-Source Step = 98.7571%
-Source Step = 98.7867%
-Source Step = 98.8163%
-Source Step = 98.8459%
-Source stepping aborted.
-Pseudo Transient succeeded in finding the operating point at 327.685 ms.
+Source stepping succeeded in finding the operating point.
+
 N-Period=1
 Fourier components of V(out)
-DC component:1.25009
+DC component:1.25874
 
 Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
  Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
-    1   	 1.700e+5	 6.410e-1	 1.000e+0	   90.66°	    0.00°
-    2   	 3.400e+5	 2.256e-5	 3.520e-5	   57.95°	  -32.72°
-    3   	 5.100e+5	 1.076e-4	 1.679e-4	  108.47°	   17.81°
-    4   	 6.800e+5	 5.504e-6	 8.586e-6	  173.04°	   82.38°
-    5   	 8.500e+5	 7.994e-5	 1.247e-4	  139.01°	   48.34°
-    6   	 1.020e+6	 9.448e-6	 1.474e-5	  -60.34°	 -151.00°
-    7   	 1.190e+6	 1.908e-5	 2.977e-5	  -97.26°	 -187.92°
-    8   	 1.360e+6	 1.284e-5	 2.004e-5	    5.32°	  -85.35°
-    9   	 1.530e+6	 4.760e-5	 7.427e-5	  -27.71°	 -118.37°
-   10   	 1.700e+6	 7.923e-6	 1.236e-5	  139.01°	   48.35°
-Partial Harmonic Distortion: 0.022855%
-Total Harmonic Distortion:   0.018746%
+    1   	 1.700e+5	 6.335e-1	 1.000e+0	   92.17°	    0.00°
+    2   	 3.400e+5	 2.871e-5	 4.531e-5	    6.13°	  -86.03°
+    3   	 5.100e+5	 1.001e-5	 1.580e-5	   61.89°	  -30.28°
+    4   	 6.800e+5	 8.358e-8	 1.319e-7	  -54.15°	 -146.32°
+    5   	 8.500e+5	 1.063e-6	 1.679e-6	 -104.94°	 -197.10°
+    6   	 1.020e+6	 2.236e-7	 3.529e-7	 -145.80°	 -237.96°
+    7   	 1.190e+6	 3.180e-7	 5.019e-7	  -66.72°	 -158.88°
+    8   	 1.360e+6	 1.881e-7	 2.968e-7	   -0.62°	  -92.78°
+    9   	 1.530e+6	 1.098e-7	 1.733e-7	  111.03°	   18.87°
+   10   	 1.700e+6	 1.891e-7	 2.985e-7	 -147.19°	 -239.36°
+Partial Harmonic Distortion: 0.004802%
+Total Harmonic Distortion:   0.042168%
 
 
-Total elapsed time: 23.603 seconds.
+Total elapsed time: 4.191 seconds.
 

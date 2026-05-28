@@ -1,6 +1,7 @@
+Stray ".ends" card: .ends
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\botaa\Desktop\TowThomasFilterandPGATransistorLevel\CAIF_Bota_Andrei\Filtru\Kwan_Martin\tb_GM_KwanMartin.asc
-Start Time: Mon May 25 15:24:58 2026
+Start Time: Wed May 27 21:55:48 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -27,26 +28,26 @@ Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
 N-Period=1
-Fourier components of I(v1)
-DC component:-6.1045e-08
+Fourier components of I(vocm1)
+DC component:-3.68319e-08
 
 Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
  Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
     1   	 1.700e+5	 3.985e-5	 1.000e+0	   90.08°	    0.00°
-    2   	 3.400e+5	 1.706e-8	 4.281e-4	    7.84°	  -82.24°
-    3   	 5.100e+5	 1.906e-8	 4.783e-4	  -85.42°	 -175.50°
-    4   	 6.800e+5	 3.247e-10	 8.148e-6	 -136.17°	 -226.25°
-    5   	 8.500e+5	 3.529e-9	 8.854e-5	   89.91°	   -0.16°
-    6   	 1.020e+6	 3.239e-10	 8.126e-6	  164.96°	   74.88°
-    7   	 1.190e+6	 6.103e-10	 1.531e-5	  -96.01°	 -186.09°
-    8   	 1.360e+6	 3.285e-10	 8.243e-6	  -15.23°	 -105.31°
-    9   	 1.530e+6	 2.675e-10	 6.712e-6	   70.41°	  -19.67°
-   10   	 1.700e+6	 3.084e-10	 7.739e-6	  160.32°	   70.25°
-Partial Harmonic Distortion: 0.064837%
-Total Harmonic Distortion:   0.077076%
+    2   	 3.400e+5	 1.334e-8	 3.347e-4	   10.01°	  -80.07°
+    3   	 5.100e+5	 1.902e-8	 4.773e-4	  -85.41°	 -175.49°
+    4   	 6.800e+5	 2.588e-10	 6.495e-6	 -119.97°	 -210.05°
+    5   	 8.500e+5	 3.530e-9	 8.858e-5	   89.91°	   -0.16°
+    6   	 1.020e+6	 3.250e-10	 8.155e-6	  165.02°	   74.94°
+    7   	 1.190e+6	 6.104e-10	 1.532e-5	  -96.03°	 -186.10°
+    8   	 1.360e+6	 3.285e-10	 8.245e-6	  -15.24°	 -105.31°
+    9   	 1.530e+6	 2.676e-10	 6.715e-6	   70.43°	  -19.65°
+   10   	 1.700e+6	 3.086e-10	 7.744e-6	  160.33°	   70.25°
+Partial Harmonic Distortion: 0.059009%
+Total Harmonic Distortion:   0.072242%
 
 
 
 
-Total elapsed time: 0.393 seconds.
+Total elapsed time: 0.490 seconds.
 

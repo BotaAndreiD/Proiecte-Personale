@@ -1,7 +1,7 @@
 Stray ".ends" card: .ends
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\botaa\Desktop\TowThomasFilterandPGATransistorLevel\CAIF_Bota_Andrei\PGA\tb_AO_comp_RMCM_ClosedLoop.asc
-Start Time: Mon May 25 15:51:27 2026
+Start Time: Wed May 27 22:05:38 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -47,5 +47,5 @@ Partial Harmonic Distortion: 0.056134%
 Total Harmonic Distortion:   0.070043%
 
 
-Total elapsed time: 0.199 seconds.
+Total elapsed time: 0.218 seconds.
 
