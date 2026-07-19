@@ -40,7 +40,7 @@ void conversie_text(unsigned char *src, unsigned char *dest, int nr_char) {
 void main() {
     int i;
 
-    printf("--- Proiect TPI: Audio LSB (Varianta Neoptimizata) ---\n");
+    printf("Proiect TPI: Audio LSB (Varianta Neoptimizata)\n");
 
     conversie_binar(mesaj, mesaj_binar, LUNGIME_MESAJ);
 

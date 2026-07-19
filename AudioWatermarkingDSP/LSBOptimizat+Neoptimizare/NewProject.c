@@ -41,7 +41,7 @@ void conversie_text(unsigned char *src, unsigned char *dest, int nr_char) {
 void main() {
     int i;
 
-    printf("--- Proiect TPI: Audio LSB Optimizat (Assembly) ---\n");
+    printf("Proiect TPI: Audio LSB Optimizat (Assembly)\n");
 
     conversie_binar(mesaj, mesaj_binar, LUNGIME_MESAJ);
 
