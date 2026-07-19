@@ -43,7 +43,7 @@ void main() {
     int i, k, val;
     float m_bipolar;
 
-    printf("-Proiect TPI: Audio Spread Spectrum Complet\n");
+    printf("Proiect TPI: Audio Spread Spectrum Complet\n");
 
     conversie_binar(mesaj, mesaj_binar, LUNGIME_MESAJ);
 
@@ -55,7 +55,7 @@ void main() {
         else 
             m_bipolar = 1.0;
 
-      	  val = audioIn[i] + (int)(ALFA * m_bipolar * secventaPN[i]);
+        val = audioIn[i] + (int)(ALFA * m_bipolar * secventaPN[i]);
         
         if (val > 32767) val = 32767;
         else if (val < -32768) val = -32768;
@@ -66,7 +66,10 @@ void main() {
     for (k = 0; k < LUNGIME_BINAR; k++) {
         float suma_corelatie = 0.0;
 
-        suma_corelatie = (audioOut[k] - audioIn[k]) * secventaPN[k];      
+        for (i = k; i < LUNGIME; i += LUNGIME_BINAR) {
+            int semnal_marcat_pur = audioOut[i] - audioIn[i];
+            suma_corelatie += (float)semnal_marcat_pur * secventaPN[i];
+        }
 
         if (suma_corelatie > 0) {
             mesaj_binar_extras[k] = 1;

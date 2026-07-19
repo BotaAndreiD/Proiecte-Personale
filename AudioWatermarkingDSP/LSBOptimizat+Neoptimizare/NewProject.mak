@@ -42,7 +42,7 @@ NewProject_Debug : ./Debug/NewProject.dxe
 	@echo ".\Debug\marcare_asm.asm"
 	$(VDSP)/easmblkfn.exe .\Debug\marcare_asm.asm -proc ADSP-BF533 -file-attr ProjectName=NewProject -g -o .\Debug\marcare_asm.doj -MM
 
-Debug/NewProject.doj :NewProject.c $(VDSP)/Blackfin/include/stdio.h $(VDSP)/Blackfin/include/yvals.h $(VDSP)/Blackfin/include/string.h audio_data.dat 
+./Debug/NewProject.doj :NewProject.c $(VDSP)/Blackfin/include/stdio.h $(VDSP)/Blackfin/include/yvals.h $(VDSP)/Blackfin/include/string.h audio_data.dat 
 	@echo ".\NewProject.c"
 	$(VDSP)/ccblkfn.exe -c .\NewProject.c -file-attr ProjectName=NewProject -g -structs-do-not-overlap -no-multiline -double-size-32 -decls-strong -warn-protos -proc ADSP-BF533 -o .\Debug\NewProject.doj -MM
 
@@ -56,7 +56,7 @@ ifeq ($(MAKECMDGOALS),NewProject_Debug_clean)
 
 NewProject_Debug_clean:
 	-$(RM) ".\Debug\marcare_asm.doj"
-	-$(RM) "Debug\NewProject.doj"
+	-$(RM) ".\Debug\NewProject.doj"
 	-$(RM) ".\Debug\NewProject.dxe"
 	-$(RM) ".\Debug\*.ipa"
 	-$(RM) ".\Debug\*.opa"
